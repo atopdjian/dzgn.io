@@ -22,6 +22,9 @@ body {
 h3,h1{
     color: white;
 }
+h3{
+    margin-top: 5px;
+}
 
 .text-vertical-center h1 {
     margin: 0;
