@@ -28,6 +28,19 @@ h3,h1{
 h3{
     margin-top: 5px;
 }
+a{
+    padding-top: 10px;
+    margin: 10px;
+}
+#social{
+    margin-top: 50px;
+}
+.fa{
+    color: white;
+}
+.fa:hover{
+    color: #666666;
+}
 
 .text-vertical-center h1 {
     margin: 0;
