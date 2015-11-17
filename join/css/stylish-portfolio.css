@@ -4,80 +4,100 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 /* Global Styles */
 
 html,
 body {
-    width: 100%;
-    height: 100%;
-    /*font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 100%;
+	/*font-family: 'Raleway', sans-serif;
     font-family: 'Alegreya Sans', sans-serif;
     font-family: 'Biryani', sans-serif;*/
-    font-family: 'Paytone One', sans-serif;
+	font-family: 'Paytone One', sans-serif;
 }
-* { margin: 0; padding: 0; }
-html, body { height: 100%; width: 100%; overflow :hidden;}
-canvas { display: block; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+canvas {
+	display: block;
+}
 
 #myCanvas {
-    background: #050526;
-    overflow :hidden;
+	background: #050526;
+	overflow: hidden;
 }
+
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
 
 h1 {
 	color: white;
-		font-size: 24pt;
+	font-size: 24pt;
 }
 
 h2 {
 	color: white;
-		font-size: 22pt;
+	font-size: 22pt;
 	font-weight: 100;
 }
 
 h3 {
-    color: white;
-		font-size: 24pt;
+	color: white;
+	font-size: 24pt;
 }
 
-a{
-    padding-top: 10px;
-    margin: 10px;
+a {
+	padding-top: 10px;
+	margin: 10px;
 }
-#social{
-    margin-top: 50px;
+
+#social {
+	margin-top: 50px;
 }
-.fa{
-    color: white;
+
+.fa {
+	color: white;
 }
-.fa:hover{
-    color: #666666;
+
+.fa:hover {
+	color: #666666;
 }
 
 .text-vertical-center {
-    margin: 0;
-    padding: 0;
-    font-size: 4.5em;
-    font-weight: 700;
+	margin: 0;
+	padding: 0;
+	font-size: 4.5em;
+	font-weight: 700;
 }
+
+
 /* Header */
 
 .header {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-color: #313131;
-    /*background: url(../img/bg.jpg) no-repeat center center scroll;*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: #313131;
+	/*background: url(../img/bg.jpg) no-repeat center center scroll;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
 }
 
 #canvasContainer {
@@ -86,7 +106,16 @@ a{
 
 #textContainer {
 	position: relative;
-	width: 55%;
+	width: 100%;
+}
+
+#dis {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	top: 100px;
+	left: 25px;
+	transform: rotate(-20deg);
 }
 
 #title {
@@ -123,4 +152,84 @@ a{
 	left: -35px;
 	width: 200px;
 	transform: rotate(30deg);
+}
+
+@media (max-width: 550px) {
+	#title {
+		top: 25px;
+		bottom: auto;
+		left: 50px;
+		transform: rotate(15deg);
+	}
+	#subtitle {
+		top: 100px;
+		bottom: auto;
+		left: 50px;
+		transform: rotate(15deg);
+	}
+	#description {
+		top: 200px;
+		bottom: auto;
+		left: 20px;
+		transform: rotate(15deg);
+	}
+	#giraffe {
+		bottom: -75px;
+		left: -35px;
+		width: 200px;
+		transform: rotate(30deg);
+	}
+	@media (max-height: 675px) {
+		#giraffe {
+			display: none;
+		}
+	}
+	@media (max-height: 400px) {
+		#dis {
+			display: block;
+		}
+		#title {
+			display: none;
+		}
+		#subtitle {
+			display: none;
+		}
+		#description {
+			display: none;
+		}
+	}
+}
+
+@media (max-height: 400px) {
+	#title {
+		top: 15px;
+		bottom: auto;
+		left: 120px;
+	}
+	#subtitle {
+		left: 375px;
+		bottom: 220px;
+	}
+	#description {
+		left: 250px;
+		bottom: 20px;
+	}
+	#giraffe {
+		bottom: -75px;
+	}
+}
+
+@media (max-height: 321px) {
+	#dis {
+		display: block;
+	}
+	#title {
+		display: none;
+	}
+	#subtitle {
+		display: none;
+	}
+	#description {
+		display: none;
+	}
 }
