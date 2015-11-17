@@ -29,12 +29,22 @@ canvas { display: block; }
     vertical-align: middle;
 }
 
-h3,h1{
+h1 {
+	color: white;
+		font-size: 24pt;
+}
+
+h2 {
+	color: white;
+		font-size: 22pt;
+	font-weight: 100;
+}
+
+h3 {
     color: white;
+		font-size: 24pt;
 }
-h3{
-    margin-top: 5px;
-}
+
 a{
     padding-top: 10px;
     margin: 10px;
@@ -49,7 +59,7 @@ a{
     color: #666666;
 }
 
-.text-vertical-center h1 {
+.text-vertical-center {
     margin: 0;
     padding: 0;
     font-size: 4.5em;
@@ -68,4 +78,49 @@ a{
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#canvasContainer {
+	position: relative;
+}
+
+#textContainer {
+	position: relative;
+	width: 55%;
+}
+
+#title {
+	position: absolute;
+	z-index: 1;
+	bottom: 430px;
+	left: 180px;
+	transform: rotate(15deg);
+	text-align: right;
+}
+
+#subtitle {
+	position: absolute;
+	z-index: 1;
+	bottom: 275px;
+	left: 225px;
+	transform: rotate(-20deg);
+	text-align: right;
+}
+
+#description {
+	position: absolute;
+	z-index: 1;
+	bottom: 40px;
+	left: 180px;
+	text-align: left;
+	transform: rotate(7deg);
+}
+
+#giraffe {
+	position: absolute;
+	z-index: 1;
+	bottom: 80px;
+	left: -35px;
+	width: 200px;
+	transform: rotate(30deg);
 }
