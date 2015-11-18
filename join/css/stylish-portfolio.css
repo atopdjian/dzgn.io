@@ -46,12 +46,12 @@ canvas {
 
 h1 {
 	color: white;
-	font-size: 24pt;
+	font-size: 26pt;
 }
 
 h2 {
 	color: white;
-	font-size: 22pt;
+	font-size: 24pt;
 	font-weight: 100;
 }
 
@@ -112,8 +112,8 @@ a {
 #title {
 	position: absolute;
 	z-index: 1;
-	bottom: 450px;
-	left: 180px;
+	bottom: 500px;
+	left: 30%;
 	transform: rotate(15deg);
 	text-align: right;
 }
@@ -121,8 +121,8 @@ a {
 #subtitle {
 	position: absolute;
 	z-index: 1;
-	bottom: 295px;
-	left: 225px;
+	bottom: 320px;
+	left: 35%;
 	transform: rotate(-20deg);
 	text-align: right;
 }
@@ -131,7 +131,7 @@ a {
 	position: absolute;
 	z-index: 1;
 	bottom: 60px;
-	left: 180px;
+	left: 30%;
 	text-align: left;
 	transform: rotate(7deg);
 }
@@ -140,8 +140,8 @@ a {
 	position: absolute;
 	z-index: 1;
 	bottom: 100px;
-	left: -35px;
-	width: 200px;
+	left: -5%;
+	width: 25%;
 	transform: rotate(30deg);
 }
 
