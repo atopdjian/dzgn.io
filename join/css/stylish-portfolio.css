@@ -109,19 +109,10 @@ a {
 	width: 100%;
 }
 
-#dis {
-	display: none;
-	position: absolute;
-	z-index: 1;
-	top: 100px;
-	left: 25px;
-	transform: rotate(-20deg);
-}
-
 #title {
 	position: absolute;
 	z-index: 1;
-	bottom: 430px;
+	bottom: 450px;
 	left: 180px;
 	transform: rotate(15deg);
 	text-align: right;
@@ -130,7 +121,7 @@ a {
 #subtitle {
 	position: absolute;
 	z-index: 1;
-	bottom: 275px;
+	bottom: 295px;
 	left: 225px;
 	transform: rotate(-20deg);
 	text-align: right;
@@ -139,7 +130,7 @@ a {
 #description {
 	position: absolute;
 	z-index: 1;
-	bottom: 40px;
+	bottom: 60px;
 	left: 180px;
 	text-align: left;
 	transform: rotate(7deg);
@@ -148,88 +139,110 @@ a {
 #giraffe {
 	position: absolute;
 	z-index: 1;
-	bottom: 80px;
+	bottom: 100px;
 	left: -35px;
 	width: 200px;
 	transform: rotate(30deg);
 }
 
-@media (max-width: 550px) {
+@media (max-width: 414px) {
+	h1 {
+		font-size: 20pt;
+	}
+	
+	h2 {
+		font-size: 18pt;
+	}
+	
 	#title {
-		top: 25px;
+		left: auto;
+		width: 100%;
 		bottom: auto;
-		left: 50px;
-		transform: rotate(15deg);
+		top: 20px;
+		margin: 0 auto;
+		text-align: right;
+		padding: 0% 10% 0% 0%;
+		transform: rotate(-15deg);
 	}
+	
 	#subtitle {
-		top: 100px;
+		left: auto;
+		width: 100%;
 		bottom: auto;
-		left: 50px;
-		transform: rotate(15deg);
+		top: 140px;
+		margin: 0 auto;
+		padding: 0% 30% 0% 0%;
+		transform: rotate(20deg);
 	}
+	
 	#description {
-		top: 200px;
+		left: auto;
+		width: 100%;
+		transform: rotate(5deg);
 		bottom: auto;
-		left: 20px;
-		transform: rotate(15deg);
+		top: 275px;
+		margin: 0 auto;
+		padding: 0% 0% 0% 10%;
+		transform: rotate(-7deg);
 	}
+	
 	#giraffe {
-		bottom: -75px;
-		left: -35px;
-		width: 200px;
-		transform: rotate(30deg);
-	}
-	@media (max-height: 675px) {
-		#giraffe {
-			display: none;
-		}
-	}
-	@media (max-height: 400px) {
-		#dis {
-			display: block;
-		}
-		#title {
-			display: none;
-		}
-		#subtitle {
-			display: none;
-		}
-		#description {
-			display: none;
-		}
+		top: 180px;
+		bottom: auto;
+		left: auto;
+		right: -5px;
+		transform: rotate(-45deg);
+		width: 50px;
 	}
 }
 
-@media (max-height: 400px) {
+@media (max-height: 414px) {
+	h1 {
+		font-size: 20pt;
+	}
+	
+	h2 {
+		font-size: 18pt;
+	}
+	
 	#title {
-		top: 15px;
+		left: auto;
+		width: 100%;
 		bottom: auto;
-		left: 120px;
+		top: 20px;
+		margin: 0 auto;
+		text-align: right;
+		padding: 0% 45% 0% 0%;
+		transform: rotate(-15deg);
 	}
+	
 	#subtitle {
-		left: 375px;
-		bottom: 220px;
+		left: auto;
+		width: 100%;
+		bottom: auto;
+		top: 50px;
+		margin: 0 auto;
+		padding: 0% 10% 0% 0%;
+		transform: rotate(20deg);
 	}
+	
 	#description {
-		left: 250px;
-		bottom: 20px;
+		left: auto;
+		width: 100%;
+		transform: rotate(5deg);
+		bottom: auto;
+		top: 140px;
+		margin: 0 auto;
+		padding: 0% 0% 0% 10%;
+		transform: rotate(-7deg);
 	}
+	
 	#giraffe {
-		bottom: -75px;
-	}
-}
-
-@media (max-height: 321px) {
-	#dis {
-		display: block;
-	}
-	#title {
-		display: none;
-	}
-	#subtitle {
-		display: none;
-	}
-	#description {
-		display: none;
+		top: auto;
+		bottom: 50px;
+		left: auto;
+		right: -5px;
+		transform: rotate(-45deg);
+		width: 75px;
 	}
 }
