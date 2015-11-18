@@ -143,6 +143,7 @@ a {
 	left: -5%;
 	width: 25%;
 	transform: rotate(30deg);
+	max-height: 720px;
 }
 
 @media (max-width: 414px) {
