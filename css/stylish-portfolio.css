@@ -29,7 +29,9 @@ h3{
     margin-top: 5px;
 }
 a{
-color: #EA4D5B;
+    padding-top: 10px;
+    margin: 10px;
+    color: #EA4D5B;
 }
 a:hover{
     color:#EA4D5B;
