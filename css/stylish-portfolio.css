@@ -29,8 +29,10 @@ h3{
     margin-top: 5px;
 }
 a{
-    padding-top: 10px;
-    margin: 10px;
+color: #EA4D5B;
+}
+a:hover{
+    color:#EA4D5B;
 }
 #social{
     margin-top: 50px;
