@@ -21,6 +21,10 @@ h2{
   width: 100%;
 }
 
+.reveal{
+    border-radius: 20px;
+}
+
 #logo {
   align-items: center;
   width: 230px;
