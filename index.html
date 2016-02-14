@@ -21,10 +21,6 @@
         <h1>Dzgn.IO</h1>
       </div>
     </div>
-    
-    <div class="small-12 columns">
-      <h2>Our Projects</h2>
-    </div>
   </div>
 </header>
 
@@ -37,11 +33,97 @@
       <p>Pellentesque nec pretium diam, eu ultricies velit. Etiam tempor sed augue vel accumsan. Praesent sed tempus odio, iaculis dictum tellus. Donec risus quam, suscipit sit amet volutpat sed, mollis imperdiet erat. Maecenas posuere venenatis porttitor. Vestibulum sit amet euismod risus, semper vulputate sapien.</p>
     </div>
   </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h2>Our Projects</h2>
+      <img src="img/thumbnailNYC.png" class="full-width" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h2>Our Team</h2>
+    </div>
+
+    <div class="small-3 columns">
+      <a data-open="eddyModal">
+        <div class="profile-container">
+          <img src="img/eddy.png" class="full-width profile" />
+          <img src="img/eddyHover.png" class="full-width profile-hover" />
+        </div>
+      </a>
+    </div>
+
+    <div class="large reveal" id="eddyModal" data-reveal>
+      <h1>Eddy Man Kim</h1>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="small-3 columns">
+      <a data-open="rehanModal">
+        <div class="profile-container">
+          <img src="img/rehan.png" class="full-width profile" />
+          <img src="img/rehanHover.png" class="full-width profile-hover" />
+        </div>
+      </a>
+    </div>
+
+    <div class="large reveal" id="rehanModal" data-reveal>
+      <h1>Rehan Butt</h1>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="small-3 columns">
+      <a data-open="albertModal">
+        <div class="profile-container">
+          <img src="img/albert.png" class="full-width profile" />
+          <img src="img/albertHover.png" class="full-width profile-hover" />
+        </div>
+      </a>
+    </div>
+
+    <div class="large reveal" id="albertModal" data-reveal>
+      <h1>Albert Topdjian</h1>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <div class="small-3 columns">
+      <a data-open="lukeModal">
+        <div class="profile-container">
+          <img src="img/luke.png" class="full-width profile" />
+          <img src="img/lukeHover.png" class="full-width profile-hover" />
+        </div>
+      </a>
+    </div>
+
+    <div class="large reveal" id="lukeModal" data-reveal>
+      <h1>Luke Hottinger</h1>
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+  </div>
 </body>
+
+<footer>
+  <div class="footer-body">
+    <h1>TEST</h1>
+  </div>
+</footer>
 
 <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/what-input.min.js"></script>
 <script src="js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
 <script>
   (function (i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
