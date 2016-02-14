@@ -65,3 +65,19 @@ h2{
 .social:hover{
     color: #202020;
 }
+
+#albert:hover{
+    content: url(../img/albertHover.png);
+}
+
+#eddy:hover{
+    content: url(../img/eddyHover.png);
+}
+
+#rehan:hover{
+    content: url(../img/rehanHover.png);
+}
+
+#luke:hover{
+    content: url(../img/lukeHover.png);
+}
