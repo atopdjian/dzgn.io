@@ -18,13 +18,19 @@ body {
     padding-right: 30px;
 }
 
-.bio{
+.bio-pic{
     border-radius: 100%;
+}
+
+.bio{
+    padding-top: 30px;
 }
 
 h1{
     color: #313131;
     text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 h2{
