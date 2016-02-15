@@ -73,16 +73,24 @@ h2{
 
 #albert:hover{
     content: url(../img/albertHover.png);
+    width: 100%;
+    border-radius: 100%;
 }
 
 #eddy:hover{
     content: url(../img/eddyHover.png);
+    width: 100%;
+    border-radius: 100%;
 }
 
 #rehan:hover{
     content: url(../img/rehanHover.png);
+    width: 100%;
+    border-radius: 100%;
 }
 
 #luke:hover{
     content: url(../img/lukeHover.png);
+    width: 100%;
+    border-radius: 100%;
 }
