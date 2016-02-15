@@ -207,3 +207,31 @@ p {
 .nycButton:hover {
   background-color: #d74955;
 }
+
+#background {
+    width: 100%;
+    height: auto;
+    position:absolute;
+    z-index:0;
+    display:block;
+    /*min-height:50%; 
+    min-width:50%;*/
+    overflow: hidden;
+}
+
+#burgerWatermark {
+    position: absolute;
+    right: -300px;
+    transform:rotate(-30deg);
+    -webkit-transform:rotate(-30deg);
+    opacity: 0.3;
+    width: 700px;
+}
+
+#circleWatermark {
+    position: relative;
+    padding-top: 600px;
+    opacity: 0.3;
+    width: 1000px;
+    left: -600px;
+}
