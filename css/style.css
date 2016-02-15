@@ -1,15 +1,8 @@
 body {
-<<<<<<< HEAD
     background-color: #313131;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
-=======
-  background-color: #313131;
-  color: white;
-  font-family: 'Lato-Regular';
-  font-size: 24px;
->>>>>>> DzgnIO/development
 }
 
 .project-title {
@@ -29,18 +22,12 @@ body {
   padding-right: 30px;
 }
 
-<<<<<<< HEAD
 .bio-pic{
     border-radius: 100%;
     margin-top: 60px;
-=======
-.bio-pic {
-  border-radius: 100%;
-}
 
 .bio {
   padding-top: 30px;
->>>>>>> DzgnIO/development
 }
 
 .bio-container {
