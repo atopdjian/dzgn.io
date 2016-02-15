@@ -46,6 +46,7 @@ h2{
 
 .profile {
   border-radius: 100%;
+    padding: 15px;
 }
 
 .profile-hover {
