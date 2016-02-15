@@ -25,18 +25,18 @@ body {
 .bio-pic{
     border-radius: 100%;
     margin-top: 60px;
+}
 
 .bio {
   padding-top: 30px;
 }
 
 .bio-container {
-  text-align: right;
+  text-align: left;
 }
 
 h1 {
   color: #313131;
-  /*text-align: center;*/
   margin-top: 20px;
   padding-left: 30px;
   /*WHY DOES THIS ONLY WORK TO 15PX*/
