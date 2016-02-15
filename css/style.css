@@ -12,6 +12,15 @@ body {
     margin-left: -25px;
 }
 
+.body-dark{
+    color: #313131;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bio{
+    border-radius: 100%;
+}
 h1{
     color: #313131;
     text-align: center;
