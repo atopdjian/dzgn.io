@@ -5,6 +5,10 @@ body {
     font-size: 24px;
 }
 
+a:hover{
+    color: #E52C5F;
+}
+
 .project-title {
   text-align: center;
 }
@@ -234,4 +238,11 @@ p {
     opacity: 0.3;
     width: 1000px;
     left: -600px;
+}
+
+.svg-wrap {
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
 }
