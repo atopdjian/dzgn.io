@@ -28,8 +28,9 @@ body {
 
 h1{
     color: #313131;
-    text-align: center;
+    /*text-align: center;*/
     margin-top: 20px;
+    padding-left: 30px; /*WHY DOES THIS ONLY WORK TO 15PX*/
     font-weight: bold;
 }
 
@@ -64,6 +65,11 @@ p{
     color: #FFF;
     opacity: 0;
   }
+
+.thumbnail:hover{ /*GLITCHY GLITCHY*/
+    box-shadow: 0 0 0 0;
+    border-style: none;
+}
 
 .thumbnail:hover .thumbnail-title {
     opacity: 1;
