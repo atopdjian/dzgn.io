@@ -5,16 +5,49 @@ body {
     font-size: 24px;
 }
 
-h1{
+.brand{
     font-family: 'Paytone One' sans-serif;
     color: white;
+    font-size: 48px;
+    margin-left: -25px;
+}
+
+.body-dark{
+    color: #313131;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bio-pic{
+    border-radius: 100%;
+}
+
+.bio{
+    padding-top: 30px;
+}
+
+h1{
+    color: #313131;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 h2{
     font-size: 48px;
     font-weight: 500;
     padding-bottom: 33px;
-    padding-top: 66px;
+    padding-top: 120px;
+}
+
+p{
+    line-height: 1.3;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .full-width {
@@ -46,6 +79,7 @@ h2{
 
 .profile {
   border-radius: 100%;
+    padding: 15px;
 }
 
 .profile-hover {
@@ -72,24 +106,28 @@ h2{
 
 #albert:hover{
     content: url(../img/albertHover.png);
+    padding: 15px;
     width: 100%;
     border-radius: 100%;
 }
 
 #eddy:hover{
     content: url(../img/eddyHover.png);
+    padding: 15px;
     width: 100%;
     border-radius: 100%;
 }
 
 #rehan:hover{
     content: url(../img/rehanHover.png);
+    padding: 15px;
     width: 100%;
     border-radius: 100%;
 }
 
 #luke:hover{
     content: url(../img/lukeHover.png);
+    padding: 15px;
     width: 100%;
     border-radius: 100%;
 }
