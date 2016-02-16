@@ -163,6 +163,10 @@ p {
   color: #202020;
 }
 
+h1 a.social {
+  font-size: 1.5rem;
+}
+
 #albert:hover {
   content: url(../img/albertHover.png);
   padding: 15px;
