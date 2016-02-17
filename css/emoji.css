@@ -6,114 +6,143 @@
   background-size: 720px 720px;
 }
 
-.emoji-blank {
-  background-position: calc(29 * -24px) calc(0 * -24px);
-}
-.emoji-boy {
-  background-position: calc(14 * -24px) calc(17 * -24px);
-}
-.emoji-back {
-  background-position: calc(20 * -24px) calc(12 * -24px);
-}
-.emoji-clock {
-  background-position: calc(21 * -24px) calc(20 * -24px);
-}
-.emoji-party {
-  background-position: calc(8 * -24px) calc(27 * -24px);
-}
-.emoji-cry {
-  background-position: calc(24 * -24px) calc(1 * -24px);
-}
-.emoji-cry-smile {
-  background-position: calc(22 * -24px) calc(20 * -24px);
-}
-.emoji-balloon {
-  background-position: calc(8 * -24px) calc(26 * -24px);
-}
-.emoji-corner {
-  background-position: calc(3 * -24px) calc(15 * -24px);
-}
-.emoji-school {
-  background-position: calc(10 * -24px) calc(21 * -24px);
-}
-.emoji-locked {
-  background-position: calc(20 * -24px) calc(5 * -24px);
-}
-.emoji-princess {
-  background-position: calc(15 * -24px) calc(5 * -24px);
-}
-.emoji-ball {
-  background-position: calc(10 * -24px) calc(10 * -24px);
-}
-.emoji-game {
-  background-position: calc(9 * -24px) calc(27 * -24px);
-}
-.emoji-baby {
-  background-position: calc(15 * -24px) calc(3 * -24px);
-}
-.emoji-devil {
-  background-position: calc(15 * -24px) calc(6 * -24px);
-}
-.emoji-tears {
-  background-position: calc(16 * -24px) calc(21 * -24px);
-}
-.emoji-rain {
-  background-position: calc(1 * -24px) calc(5 * -24px);
-}
-.emoji-broken-heart {
-  background-position: calc(16 * -24px) calc(3 * -24px);
-}
-.emoji-knife {
-  background-position: calc(20 * -24px) calc(29 * -24px);
-}
-.emoji-dolls {
-  background-position: calc(14 * -24px) calc(24 * -24px);
-}
-.emoji-run {
-  background-position: calc(10 * -24px) calc(13 * -24px);
-}
-.emoji-dog {
-  background-position: calc(11 * -24px) calc(13 * -24px);
-}
-.emoji-bug {
-  background-position: calc(12 * -24px) calc(6 * -24px);
-}
-.emoji-monkey {
-  background-position: calc(11 * -24px) calc(25 * -24px);
-}
-.emoji-turtle {
-  background-position: calc(12 * -24px) calc(11 * -24px);
-}
-.emoji-bird {
-  background-position: calc(12 * -24px) calc(12 * -24px);
-}
-.emoji-airplane {
-  background-position: calc(2 * -24px) calc(17 * -24px);
-}
-.emoji-swirl {
-  background-position: calc(3 * -24px) calc(12 * -24px);
-}
-.emoji-right {
-  background-position: calc(3 * -24px) calc(11 * -24px);
-}
-.emoji-adult {
-  background-position: calc(25 * -24px) calc(2 * -24px);
-}
-.emoji-flashlight {
-  background-position: calc(20 * -24px) calc(25 * -24px);
-}
-.emoji-tree {
-  background-position: calc(6 * -24px) calc(4 * -24px);
-}
-.emoji-loud {
-  background-position: calc(19 * -24px) calc(27 * -24px);
-}
-.emoji-megaphone {
-  background-position: calc(18 * -24px) calc(21 * -24px);
-}
-.emoji-no {
-  background-position: calc(26 * -24px) calc(17 * -24px);
-}
-.emoji-parents {
-  background-position: calc(14 * -24px) calc(21 * -24px);
-}
+    /*Using Slack Naming Convension*/
+.emoji-copyright{background-position: calc(0 * -24px) calc(0 * -24px); }
+.emoji-registered{background-position: calc(0 * -24px) calc(1 * -24px); }
+.emoji-bangbang{background-position: calc(0 * -24px) calc(2 * -24px); }
+    .emoji-interrobang{background-position: calc(0 * -24px) calc(3 * -24px); }
+    .emoji-trademark{background-position: calc(0 * -24px) calc(4 * -24px); }
+    .emoji-information_source{background-position: calc(0 * -24px) calc(5 * -24px); }
+    .emoji-left_right_arrow{background-position: calc(0 * -24px) calc(6 * -24px); }
+    .emoji-arrow_up_down{background-position: calc(0 * -24px) calc(7 * -24px); }
+    .emoji-upper_left{background-position: calc(0 * -24px) calc(8 * -24px); }
+    .emoji-upper_right{background-position: calc(0 * -24px) calc(9 * -24px); }
+    .emoji-lower_right{background-position: calc(0 * -24px) calc(10 * -24px); }
+    .emoji-lower_left{background-position: calc(0 * -24px) calc(11 * -24px); }
+    .emoji-leftwards_arrow_with_hook{background-position: calc(0 * -24px) calc(12 * -24px); }
+    .emoji-arrow_right_hook{background-position: calc(0 * -24px) calc(13 * -24px); }
+    .emoji-watch{background-position: calc(0 * -24px) calc(14 * -24px); }
+        .emoji-hourglass{background-position: calc(0 * -24px) calc(15 * -24px); }
+        .emoji-fast_forward{background-position: calc(0 * -24px) calc(16 * -24px); }
+        .emoji-remind{background-position: calc(0 * -24px) calc(17 * -24px); }
+        .emoji-arrow_double_up{background-position: calc(0 * -24px) calc(18 * -24px); }
+        .emoji-arrow_double_down{background-position: calc(0 * -24px) calc(19 * -24px); }
+        .emoji-alarm_clock{background-position: calc(0 * -24px) calc(20 * -24px); }
+        .emoji-hourglass_flowing_sand{background-position: calc(0 * -24px) calc(21 * -24px); }
+        .emoji-m{background-position: calc(0 * -24px) calc(22 * -24px); }
+        .emoji-black_large_square{background-position: calc(0 * -24px) calc(23 * -24px); }
+        .emoji-white_large_square{background-position: calc(0 * -24px) calc(24 * -24px); }
+        .emoji-arrow_forward{background-position: calc(0 * -24px) calc(25 * -24px); }
+        .emoji-arrow_backward{background-position: calc(0 * -24px) calc(26 * -24px); }
+        .emoji-white_medium_square{background-position: calc(0 * -24px) calc(27 * -24px); }
+        .emoji-black_medium_square{background-position: calc(0 * -24px) calc(28 * -24px); }
+        .emoji-white_small_square{background-position: calc(0 * -24px) calc(29 * -24px); }
+        .emoji-black_small_square{background-position: calc(1 * -24px) calc(0 * -24px); }
+        .emoji-sunny{background-position: calc(1 * -24px) calc(1 * -24px); }
+.emoji-cloud{background-position: calc(1 * -24px) calc(2 * -24px); }
+    .emoji-phone{background-position: calc(1 * -24px) calc(3 * -24px); }
+    .emoji-ballot_box_with_check{background-position: calc(1 * -24px) calc(4 * -24px); }
+    .emoji-umbrella{background-position: calc(1 * -24px) calc(5 * -24px); }
+    .emoji-coffee{background-position: calc(1 * -24px) calc(6 * -24px); }
+    .emoji-index_finger{background-position: calc(1 * -24px) calc(7 * -24px); }
+    .emoji-relaxed{background-position: calc(1 * -24px) calc(8 * -24px); }
+    .emoji-aries{background-position: calc(1 * -24px) calc(9 * -24px); }
+    .emoji-taurus{background-position: calc(1 * -24px) calc(10 * -24px); }
+    .emoji-gemini{background-position: calc(1 * -24px) calc(11 * -24px); }
+    .emoji-cancer{background-position: calc(1 * -24px) calc(12 * -24px); }
+    .emoji-leo{background-position: calc(1 * -24px) calc(13 * -24px); }
+    .emoji-virgo{background-position: calc(1 * -24px) calc(14 * -24px); }
+    .emoji-libra{background-position: calc(1 * -24px) calc(15 * -24px); }
+    .emoji-scorpius{background-position: calc(1 * -24px) calc(16 * -24px); }
+    .emoji-sagitarius{background-position: calc(1 * -24px) calc(17 * -24px); }
+    .emoji-capricorn{background-position: calc(1 * -24px) calc(18 * -24px); }
+    .emoji-aquarius{background-position: calc(1 * -24px) calc(19 * -24px); }
+    .emoji-pisces{background-position: calc(1 * -24px) calc(20 * -24px); }
+    .emoji-spades{background-position: calc(1 * -24px) calc(21 * -24px); }
+    .emoji-clubs{background-position: calc(1 * -24px) calc(22 * -24px); }
+    .emoji-hearts{background-position: calc(1 * -24px) calc(23 * -24px); }
+    .emoji-diamonds{background-position: calc(1 * -24px) calc(24 * -24px); }
+    .emoji-hotsprings{background-position: calc(1 * -24px) calc(25 * -24px); }
+    .emoji-recycle{background-position: calc(1 * -24px) calc(26 * -24px); }
+    .emoji-wheelchair{background-position: calc(1 * -24px) calc(27 * -24px); }
+    .emoji-anchor{background-position: calc(1 * -24px) calc(28 * -24px); }
+    .emoji-warning{background-position: calc(1 * -24px) calc(29 * -24px); }
+    .emoji-zap{background-position: calc(2 * -24px) calc(0 * -24px); }
+    .emoji-white_large_circle{background-position: calc(2 * -24px) calc(1 * -24px); }
+.emoji-black_large_circle{background-position: calc(2 * -24px) calc(2 * -24px); }
+    .emoji-soccer{background-position: calc(2 * -24px) calc(3 * -24px); }
+    .emoji-baseball{background-position: calc(2 * -24px) calc(4 * -24px); }
+    .emoji-snowman{background-position: calc(2 * -24px) calc(5 * -24px); }
+    .emoji-barely_sunny{background-position: calc(2 * -24px) calc(6 * -24px); }
+    .emoji-ophiuchus{background-position: calc(2 * -24px) calc(7 * -24px); }
+.emoji-no_entry{background-position: calc(2 * -24px) calc(8 * -24px); }
+    .emoji-church{background-position: calc(2 * -24px) calc(9 * -24px); }
+    .emoji-fountain{background-position: calc(2 * -24px) calc(10 * -24px); }
+    .emoji-golf{background-position: calc(2 * -24px) calc(11 * -24px); }
+    .emoji-boat{background-position: calc(2 * -24px) calc(12 * -24px); }
+    .emoji-camping{background-position: calc(2 * -24px) calc(13 * -24px); }
+    .emoji-fuelpump{background-position: calc(2 * -24px) calc(14 * -24px); }
+    .emoji-scissors{background-position: calc(2 * -24px) calc(15 * -24px); }
+    .emoji-white_check_mark{background-position: calc(2 * -24px) calc(16 * -24px); }
+    .emoji-airplane{background-position: calc(2 * -24px) calc(17 * -24px); }
+    .emoji-email{background-position: calc(2 * -24px) calc(18 * -24px); }
+    .emoji-fist{background-position: calc(2 * -24px) calc(19 * -24px); }
+    .emoji-hand{background-position: calc(2 * -24px) calc(20 * -24px); }
+    .emoji-v{background-position: calc(2 * -24px) calc(21 * -24px); }
+    .emoji-pencil2{background-position: calc(2 * -24px) calc(22 * -24px); }
+    .emoji-fountain_pen{background-position: calc(2 * -24px) calc(23 * -24px); }
+    .emoji-heavy_check_mark{background-position: calc(2 * -24px) calc(24 * -24px); }
+    .emoji-heavy_multiplication_x{background-position: calc(2 * -24px) calc(25 * -24px); }
+.emoji-sparkles{background-position: calc(2 * -24px) calc(26 * -24px); }
+    .emoji-eight_spoked_asterisk{background-position: calc(2 * -24px) calc(27 * -24px); }
+.emoji-four_pointed_white_star{background-position: calc(2 * -24px) calc(28 * -24px); }
+    .emoji-snowflake{background-position: calc(2 * -24px) calc(29 * -24px); }
+    .emoji-sparkle{background-position: calc(3 * -24px) calc(0 * -24px); }
+    .emoji-x{background-position: calc(3 * -24px) calc(1 * -24px); }
+.emoji-negative_space_cross_mark{background-position: calc(3 * -24px) calc(2 * -24px); }
+    .emoji-question{background-position: calc(3 * -24px) calc(3 * -24px); }
+    .emoji-grey_question{background-position: calc(3 * -24px) calc(4 * -24px); }
+    .emoji-grey_exclamation{background-position: calc(3 * -24px) calc(5 * -24px); }
+    .emoji-exclamation{background-position: calc(3 * -24px) calc(6 * -24px); }
+    .emoji-heart{background-position: calc(3 * -24px) calc(7 * -24px); }
+    .emoji-heavy_plus_sign{background-position: calc(3 * -24px) calc(8 * -24px); }
+    .emoji-heavy_minus_sign{background-position: calc(3 * -24px) calc(9 * -24px); }
+    .emoji-heavy_division_sign{background-position: calc(3 * -24px) calc(10 * -24px); }
+    .emoji-arrow_right{background-position: calc(3 * -24px) calc(11 * -24px); }
+    .emoji-curly_loop{background-position: calc(3 * -24px) calc(12 * -24px); }
+    .emoji-loop{background-position: calc(3 * -24px) calc(13 * -24px); }
+    .emoji-arrow_heading_up{background-position: calc(3 * -24px) calc(14 * -24px); }
+    .emoji-arrow_heading_down{background-position: calc(3 * -24px) calc(15 * -24px); }
+    .emoji-arrow_left{background-position: calc(3 * -24px) calc(16 * -24px); }
+    .emoji-arrow_up{background-position: calc(3 * -24px) calc(17 * -24px); }
+    .emoji-arrow_down{background-position: calc(3 * -24px) calc(18 * -24px); }
+        /*3-19,3-20*/
+    .emoji-star{background-position: calc(3 * -24px) calc(21 * -24px); }
+    .emoji-o{background-position: calc(3 * -24px) calc(22 * -24px); }
+    .emoji-wavy_dash{background-position: calc(3 * -24px) calc(23 * -24px); }
+    .emoji-part_alternation_mark{background-position: calc(3 * -24px) calc(24 * -24px); }
+    .emoji-congratulation{background-position: calc(3 * -24px) calc(25 * -24px); }
+    .emoji-secret{background-position: calc(3 * -24px) calc(26 * -24px); }
+    .emoji-taro{background-position: calc(3 * -24px) calc(27 * -24px); }
+    .emoji-joker{background-position: calc(3 * -24px) calc(28 * -24px); }
+    .emoji-a{background-position: calc(3 * -24px) calc(29 * -24px); }
+    .emoji-b{background-position: calc(4 * -24px) calc(0 * -24px); }
+    .emoji-o{background-position: calc(4 * -24px) calc(1 * -24px); }
+.emoji-parking{background-position: calc(4 * -24px) calc(2 * -24px); }
+    .emoji-ab{background-position: calc(4 * -24px) calc(3 * -24px); }
+    .emoji-cl{background-position: calc(4 * -24px) calc(4 * -24px); }
+    .emoji-cool{background-position: calc(4 * -24px) calc(5 * -24px); }
+    .emoji-free{background-position: calc(4 * -24px) calc(6 * -24px); }
+    .emoji-id{background-position: calc(4 * -24px) calc(7 * -24px); }
+    .emoji-new{background-position: calc(4 * -24px) calc(8 * -24px); }
+    .emoji-ng{background-position: calc(4 * -24px) calc(9 * -24px); }
+    .emoji-ok{background-position: calc(4 * -24px) calc(10 * -24px); }
+    .emoji-sos{background-position: calc(4 * -24px) calc(11 * -24px); }
+    .emoji-up{background-position: calc(4 * -24px) calc(12 * -24px); }
+    .emoji-vs{background-position: calc(4 * -24px) calc(13 * -24px); }
+    .emoji-sa{background-position: calc(4 * -24px) calc(15 * -24px); }
+    /*4-16,4-18*/
+    .emoji-u7a7a{background-position: calc(4 * -24px) calc(19 * -24px); }
+    .emoji-ideograph_advantage{background-position: calc(4 * -24px) calc(27 * -24px); }
+    .emoji-cyclone{background-position: calc(4 * -24px) calc(29 * -24px); }
+/*5-0 and on*/
