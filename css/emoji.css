@@ -1,0 +1,119 @@
+.emoji {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url(emoji_apple_64_indexed_256colors.png);
+  background-size: 720px 720px;
+}
+
+.emoji-blank {
+  background-position: calc(29 * -24px) calc(0 * -24px);
+}
+.emoji-boy {
+  background-position: calc(14 * -24px) calc(17 * -24px);
+}
+.emoji-back {
+  background-position: calc(20 * -24px) calc(12 * -24px);
+}
+.emoji-clock {
+  background-position: calc(21 * -24px) calc(20 * -24px);
+}
+.emoji-party {
+  background-position: calc(8 * -24px) calc(27 * -24px);
+}
+.emoji-cry {
+  background-position: calc(24 * -24px) calc(1 * -24px);
+}
+.emoji-cry-smile {
+  background-position: calc(22 * -24px) calc(20 * -24px);
+}
+.emoji-balloon {
+  background-position: calc(8 * -24px) calc(26 * -24px);
+}
+.emoji-corner {
+  background-position: calc(3 * -24px) calc(15 * -24px);
+}
+.emoji-school {
+  background-position: calc(10 * -24px) calc(21 * -24px);
+}
+.emoji-locked {
+  background-position: calc(20 * -24px) calc(5 * -24px);
+}
+.emoji-princess {
+  background-position: calc(15 * -24px) calc(5 * -24px);
+}
+.emoji-ball {
+  background-position: calc(10 * -24px) calc(10 * -24px);
+}
+.emoji-game {
+  background-position: calc(9 * -24px) calc(27 * -24px);
+}
+.emoji-baby {
+  background-position: calc(15 * -24px) calc(3 * -24px);
+}
+.emoji-devil {
+  background-position: calc(15 * -24px) calc(6 * -24px);
+}
+.emoji-tears {
+  background-position: calc(16 * -24px) calc(21 * -24px);
+}
+.emoji-rain {
+  background-position: calc(1 * -24px) calc(5 * -24px);
+}
+.emoji-broken-heart {
+  background-position: calc(16 * -24px) calc(3 * -24px);
+}
+.emoji-knife {
+  background-position: calc(20 * -24px) calc(29 * -24px);
+}
+.emoji-dolls {
+  background-position: calc(14 * -24px) calc(24 * -24px);
+}
+.emoji-run {
+  background-position: calc(10 * -24px) calc(13 * -24px);
+}
+.emoji-dog {
+  background-position: calc(11 * -24px) calc(13 * -24px);
+}
+.emoji-bug {
+  background-position: calc(12 * -24px) calc(6 * -24px);
+}
+.emoji-monkey {
+  background-position: calc(11 * -24px) calc(25 * -24px);
+}
+.emoji-turtle {
+  background-position: calc(12 * -24px) calc(11 * -24px);
+}
+.emoji-bird {
+  background-position: calc(12 * -24px) calc(12 * -24px);
+}
+.emoji-airplane {
+  background-position: calc(2 * -24px) calc(17 * -24px);
+}
+.emoji-swirl {
+  background-position: calc(3 * -24px) calc(12 * -24px);
+}
+.emoji-right {
+  background-position: calc(3 * -24px) calc(11 * -24px);
+}
+.emoji-adult {
+  background-position: calc(25 * -24px) calc(2 * -24px);
+}
+.emoji-flashlight {
+  background-position: calc(20 * -24px) calc(25 * -24px);
+}
+.emoji-tree {
+  background-position: calc(6 * -24px) calc(4 * -24px);
+}
+.emoji-loud {
+  background-position: calc(19 * -24px) calc(27 * -24px);
+}
+.emoji-megaphone {
+  background-position: calc(18 * -24px) calc(21 * -24px);
+}
+.emoji-no {
+  background-position: calc(26 * -24px) calc(17 * -24px);
+}
+.emoji-parents {
+  background-position: calc(14 * -24px) calc(21 * -24px);
+}
