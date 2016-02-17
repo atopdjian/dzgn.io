@@ -163,6 +163,10 @@ p {
   color: #202020;
 }
 
+h1 a.social {
+  font-size: 1.5rem;
+}
+
 #albert:hover {
   content: url(../img/albertHover.png);
   padding: 15px;
@@ -230,12 +234,12 @@ p {
     -webkit-transform:rotate(-30deg);
     opacity: 0.3;
     width: 700px;
-    top: -300px;
+    top: 400px;
 }
 
 #circleWatermark {
     position: relative;
-    padding-top: 600px;
+    margin-top: 1100px;
     opacity: 0.3;
     width: 1000px;
     left: -600px;
