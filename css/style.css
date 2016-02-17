@@ -1,8 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
 body {
     background-color: #313131;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
+}
+
+.img{
+    border-radius: 10px;
 }
 
 a:hover{
@@ -14,10 +21,10 @@ a:hover{
 }
 
 .brand {
-  font-family: 'Paytone One' sans-serif;
+  font-family: 'Paytone One';
   color: white;
   font-size: 64px;
-  margin-left: -25px;
+  margin-left: -22px;
 }
 
 .body-dark {
@@ -48,6 +55,7 @@ h1 {
 }
 
 h2 {
+font-family: 'Lato', sans-serif;
   font-size: 48px;
   font-weight: 500;
   padding-bottom: 33px;
@@ -81,6 +89,8 @@ p {
   background-color: black;
   opacity: 1;
   border-style: none;
+    box-shadow: 0 0 0 0;
+    border-radius: 10px;
 }
 
 .thumbnail-title {
@@ -96,9 +106,9 @@ p {
 }
 
 .thumbnail:hover {
-  /*GLITCHY GLITCHY*/
   box-shadow: 0 0 0 0;
   border-style: none;
+    border-radius: 10px;
 }
 
 .thumbnail:hover .thumbnail-title {
