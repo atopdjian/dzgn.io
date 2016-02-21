@@ -9,7 +9,7 @@ body {
 }
 
 .img{
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 a:hover{
@@ -90,7 +90,7 @@ p {
   opacity: 1;
   border-style: none;
     box-shadow: 0 0 0 0;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .thumbnail-title {
@@ -108,7 +108,7 @@ p {
 .thumbnail:hover {
   box-shadow: 0 0 0 0;
   border-style: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .thumbnail:hover .thumbnail-title {
@@ -324,4 +324,15 @@ section a::after {
 
 .link-svgline a:hover svg.link-svgline {
 	stroke-dashoffset: 0px; 
+}
+
+.copyright {
+  font-size: 18px;
+}
+
+::selection {
+  background: #E52C5F; 
+}
+::-moz-selection {
+  background: #E52C5F; 
 }
