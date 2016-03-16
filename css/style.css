@@ -152,7 +152,8 @@ p {
 }
 
 .profile-hover {
-  position: absolute;
+  border-radius: 100%;
+  padding: 15px;
 }
 
 .profile-container {
