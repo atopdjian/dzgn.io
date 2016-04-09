@@ -257,12 +257,12 @@ h1 a.social {
 
 #wdwWatermarkRight {
     position: absolute;
-    right: -300px;
+    right: -200px;
     transform:rotate(-30deg);
     -webkit-transform:rotate(-30deg);
     opacity: 0.3;
     width: 700px;
-    top: 400px;
+    top: 500px;
 }
 
 #wdwWatermarkLeft {
@@ -272,7 +272,7 @@ h1 a.social {
     -webkit-transform:rotate(30deg);
     opacity: 0.3;
     width: 1000px;
-    left: -600px;
+    left: -730px;
 }
 
 div.code {
@@ -318,7 +318,7 @@ header .row {
 /* SVG UNDERLINE EFFECT */
 /*/////////////////////////////////////////////*/
 
-section a {
+div a {
 	position: relative;
 	display: inline-block;
 	outline: none;
@@ -328,8 +328,8 @@ section a {
 	white-space: nowrap;
 }
 
-section a::before,
-section a::after {
+div a::before,
+div a::after {
 	pointer-events: none;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
