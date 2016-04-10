@@ -328,6 +328,10 @@ div a {
 	white-space: nowrap;
 }
 
+div.thumbnail a {
+  width: 100%;
+}
+
 div a::before,
 div a::after {
 	pointer-events: none;
