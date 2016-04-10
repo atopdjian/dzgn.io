@@ -1,0 +1,17 @@
+#burgerWatermark {
+  position: absolute;
+  right: -300px;
+  transform: rotate(-30deg);
+  -webkit-transform: rotate(-30deg);
+  opacity: 0.3;
+  width: 700px;
+  top: 400px;
+}
+
+#circleWatermark {
+  position: relative;
+  margin-top: 1100px;
+  opacity: 0.3;
+  width: 1000px;
+  left: -600px;
+}
