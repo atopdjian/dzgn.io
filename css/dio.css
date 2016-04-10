@@ -61,15 +61,37 @@ header .row {
   transform: translateY(-50%);
 }
 
+
 /************************/
 /**** CLASS SELECTORS ***/
 /************************/
+
 
 .brand {
   font-family: 'Paytone One';
   color: white;
   font-size: 64px;
   margin-left: -22px;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  overflow: hidden;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
 }
 
 .img {
@@ -102,17 +124,6 @@ header .row {
 .text {
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.noSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  user-drag: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
 }
 
 .thumbnail {
@@ -251,27 +262,22 @@ h1 a.social {
   overflow: hidden;
 }
 
+
 /************************/
 /***** ID SELECTORS *****/
 /************************/
+
 
 #logo {
   align-items: center;
   width: 230px;
 }
 
-#background {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  z-index: -1;
-  display: block;
-  overflow: hidden;
-}
 
 /************************/
 /****** ANIMATIONS ******/
 /************************/
+
 
 @keyframes boop {
   0% {
@@ -284,3 +290,31 @@ h1 a.social {
     transform: scale(1.0);
   }
 }
+
+
+/************************/
+/***** MEDIA QUERIES ****/
+/************************/
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {
+  .thumbnail .thumbnail-title {
+    opacity: 1;
+    font-size: 24px;
+    bottom: 20px;
+    text-shadow: 2px 2px 20px #313131;
+  }
+}
+
+/* MEDIUM AND UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE AND UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
