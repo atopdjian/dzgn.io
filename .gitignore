@@ -1,5 +1,3 @@
-## DZGN.IO GITIGNORE ##
-
-## HIDE .HTACCESS ##
-.htaccess
-## HIDE .HTACCESS ##
+_site
+.sass-cache
+.jekyll-metadata
