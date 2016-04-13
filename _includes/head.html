@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="DzgnIO,Design,Development,Full Stack,DIO,tech">
+  <meta name="author" content="DzgnIO">
+
+  <link rel="icon" type="image/png" href="https://static.dzgn.io/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="https://static.dzgn.io/favicon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="https://static.dzgn.io/favicon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="https://static.dzgn.io/favicon.png" sizes="76x76" />
+  <link rel="apple-touch-icon" type="image/png" href="https://static.dzgn.io/favicon.png" sizes="120x120" />
+  <link rel="apple-touch-icon" type="image/png" href="https://static.dzgn.io/favicon.png" sizes="152x152" />
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+  <link rel="stylesheet" href="https://static.dzgn.io/css/foundation.min.css" />
+  <link rel="stylesheet" href="https://static.dzgn.io/css/dio.css" />
+  <link rel="stylesheet" href="https://static.dzgn.io/css/underline.css" />
+  <link rel="stylesheet" href="https://static.dzgn.io/css/emoji.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/home.css" />
+</head>
