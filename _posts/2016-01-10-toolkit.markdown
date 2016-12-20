@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Web Dev Weekend"
+title:  "Toolkit"
 thumbnail: "/img/thumbnails/nyc.png"
-date:   2016-03-16 5:00:00 -0400
-categories: event
+date:   2016-01-10 5:00:00 -0400
+categories: project
 ---
 
 <div class="row">

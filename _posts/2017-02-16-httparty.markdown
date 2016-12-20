@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Web Dev Weekend"
+title:  "HTTParty"
 thumbnail: "/img/thumbnails/nyc.png"
-date:   2016-03-16 5:00:00 -0400
+date:   2017-02-16 5:00:00 -0400
 categories: event
 ---
 
