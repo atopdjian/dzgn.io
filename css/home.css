@@ -75,6 +75,49 @@ div.code {
   font-family: 'Lato', sans-serif;
 }
 
+.thumbnail-container {
+    position: relative;
+    display: block;
+    background-color: #000;
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+    opacity: 0.8;
+}
+
+.thumbnail-text {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    opacity: 0;
+    text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    background-color: #12abc4;
+    color: white;
+}
+
+.thumbnail-tile {
+    margin-bottom: 30px;
+}
+
 /************************/
 /***** MEDIA QUERIES ****/
 /************************/

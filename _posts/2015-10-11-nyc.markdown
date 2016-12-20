@@ -1,0 +1,114 @@
+---
+layout: post
+title:  "Carnegie Mellon NYC"
+tile-name: "Fountains"
+thumbnail: "/img/thumbnails/nyc.png"
+date:   2015-10-11 5:00:00 -0400
+categories: project
+---
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+<div class="full reveal" id="nycModal" data-reveal>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h1 class="project-title">Carnegie Mellon NYC</h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/nycDIO.png" alt="Home Page" />
+    </div>
+    <div class="small-12 columns">
+      <a href="http://nyc.desgn.io" class="nycButton contentButton">Check out the full site</a>
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/slack.png" alt="Slack" />
+    </div>
+    <div class="small-12 columns">
+      <p class="body-dark text">In order to keep track and make sure everyone was up to speed on what each team was doing we decided to use Slack for communications and updates project wide.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h3 class="body-dark text">Process</h3>
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/cmuEntities.png" alt="Other CMU Programs" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/cornell.png" alt="Cornell Campuses" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/uc1.png" alt="UC Schools Part 1" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/uc2.png" alt="UC Schools Part 2" />
+    </div>
+    <div class="small-12 columns">
+      <p class="body-dark text">When starting this project we looked into other Carnegie Mellon campuses as well as other universities for how they deal with multiple campuses with differant goals in mind. Cornell uses the same main branding across their entities with a secondary brand image representing that particular campus. In comparison the University of California system uses a different brand image for each campus and different visual language.</p>
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/brandingInspiration.png" alt="Branding Inspiration" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/nycInspiration.png" alt="NYC Inspiration" />
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <h3 class="body-dark text">Questions to Answer</h3>
+    </div>
+    <div class="small-12 columns">
+      <ul class="body-dark">
+        <li>What are the public (emotional) associations of CMU?</li>
+        <li>What is the NYC campus providing? What is its program structure? What will their students recieve?</li>
+        <li>What kind of people does CMU want to attract to their nyc campus?</li>
+        <li>What kind of people does cmu currently attract?</li>
+        <li>Should the nyc and pitt campuses have a different audience?</li>
+      </ul>
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/brandSketches.png" alt="Brand Sketches" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/brandingProcess.png" alt="Branding Process" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/programChart.png" alt="Program Chart" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/originalSiteBreakdown.png" alt="Original Site Breakdown" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/siteBreakdownDetail.png" alt="Site Breakdown Detail" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/bannerIterations.png" alt="Banner Iteration" />
+    </div>
+    <div class="small-12 columns">
+      <img class="image noSelect" src="img/nyc/colorIteration.png" alt="Color Iteration" />
+    </div>
+  </div>
+</div>
