@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Toolkit"
+title:  "Dzgn.IO | Toolkit"
 thumbnail: "/img/thumbnails/nyc.png"
 date:   2016-01-10
 tags: project
