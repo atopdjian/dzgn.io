@@ -2,8 +2,9 @@
 layout: post
 title:  "Carnegie Mellon NYC"
 thumbnail: "/img/thumbnails/nyc.png"
-date:   2015-10-11 5:00:00 -0400
-categories: project
+date:   2015-10-11
+tags: project
+permalink: nyc
 ---
 
   <div class="row">
@@ -83,4 +84,3 @@ categories: project
       <img class="image noSelect" src="img/nyc/colorIteration.png" alt="Color Iteration" />
     </div>
   </div>
-</div>

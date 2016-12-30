@@ -16,23 +16,24 @@ layout: default
   <div class="small-12 columns">
     <h2>Projects</h2>
   </div>
-</section>
-
-{% for post in site.posts %}
-  {% if post.categories == "project" %}
-    <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "project" %}
+        <div class="small-12 medium-4 large-3 columns thumbnail-tile">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="thumbnail-container">
-            <img class="thumbnail-image" src="{{ post.thumbnail }}">
-            <span class="thumbnail-text">{{ post.title }}</span>
-            {% if post.banner %}
-            <span class="banner">{{ post.banner }}</span>
-            {% endif %}
+              <img class="thumbnail-image" src="{{ post.thumbnail }}">
+              <span class="thumbnail-text">{{ post.title }}</span>
+              {% if post.banner %}
+                <span class="banner">{{ post.banner }}</span>
+              {% endif %}
             </div>
-        </a>
-    </div>
-  {% endif %}
-{% endfor %}
+          </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</section>
 
 
 <section class="row">
@@ -40,21 +41,25 @@ layout: default
     <h2>Events</h2>
   </div>
 
-{% for post in site.posts %}
-  {% if post.categories == "event" %}
-    <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "event" %}
+        <div class="small-12 medium-4 large-3 columns thumbnail-tile">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class="thumbnail-container">
-            <img class="thumbnail-image" src="{{ post.thumbnail }}">
-            <span class="thumbnail-text">{{ post.title }}</span>
-            {% if post.banner %}
-            <span class="banner">{{ post.banner }}</span>
-            {% endif %}
+              <img class="thumbnail-image" src="{{ post.thumbnail }}">
+              <span class="thumbnail-text">{{ post.title }}</span>
+              {% if post.banner %}
+                <span class="banner">{{ post.banner }}</span>
+              {% endif %}
             </div>
-        </a>
-    </div>
-  {% endif %}
-{% endfor %}
+          </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
+</section>
 
 <section class="row">
   <div class="small-12 columns">
