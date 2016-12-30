@@ -1,8 +1,8 @@
 ---
 layout: team
 title:  "Luke"
-thumbnail: "/img/luke.png"
-thumbnail-hover: "/img/lukeHover.png"
+thumbnail: "img/luke.png"
+thumbnail-hover: "img/lukeHover.png"
 date:   2015-10-09
 tags: team
 permalink: luke

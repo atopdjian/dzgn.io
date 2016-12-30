@@ -1,8 +1,8 @@
 ---
 layout: team
 title:  "Eddy"
-thumbnail: "/img/eddy.png"
-thumbnail-hover: "/img/eddyHover.png"
+thumbnail: "img/eddy.png"
+thumbnail-hover: "img/eddyHover.png"
 date:   2015-10-12
 tags: team
 permalink: eddy

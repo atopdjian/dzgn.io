@@ -1,8 +1,8 @@
 ---
 layout: team
 title:  "Rehan"
-thumbnail: "/img/rehan.png"
-thumbnail-hover: "/img/rehanHover.png"
+thumbnail: "img/rehan.png"
+thumbnail-hover: "img/rehanHover.png"
 date:   2015-10-10
 tags: team
 permalink: rehan

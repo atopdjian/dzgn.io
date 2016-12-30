@@ -1,8 +1,8 @@
 ---
 layout: team
 title:  "Albert"
-thumbnail: "/img/albert.png"
-thumbnail-hover: "/img/albertHover.png"
+thumbnail: "img/albert.png"
+thumbnail-hover: "img/albertHover.png"
 date:   2015-10-10
 tags: team
 permalink: albert
