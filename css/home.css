@@ -1,3 +1,7 @@
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+
 .project-title {
   text-align: center;
 }
@@ -118,6 +122,14 @@ div.code {
     margin-bottom: 30px;
 }
 
+.card-style{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /************************/
 /***** MEDIA QUERIES ****/
 /************************/
@@ -130,6 +142,24 @@ div.code {
     font-size: 24px;
     bottom: 20px;
     text-shadow: 2px 2px 20px #313131;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .body-dark{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .contentButton{
+    font-size: 24px;
+  }
+  ul{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  code{
+    font-size: 20px;
   }
 }
 
