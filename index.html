@@ -66,6 +66,22 @@ layout: default
     <h2>Team</h2>
   </div>
 
+    {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "team" %}
+        <div class="small-6 medium-6 large-3 columns">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="profile-container" id="{{ post.permalink }}">
+              <img class="full-width profile" src="{{ post.thumbnail }}">
+              <img class="full-width profile-hover" src="{{ post.thumbnail-hover }}">
+            </div>
+          </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
+<!--
   <div class="small-6 large-3 columns">
     <a data-open="eddyModal">
       <div class="profile-container" id="eddy">
@@ -168,4 +184,5 @@ layout: default
       <p class="body-dark bio">Luke is a junior in the Information Systems Program at Carnegie Mellon University with a minor in Physical Computing. Having developed software for CMU's Student Affairs Operations and The Boeing Company <span class="emoji emoji-airplane"></span>, he has gained industry experience in the areas of IT strategy and technology management. An avid programmer and developer, Luke enjoys working with a variety of languages, web frameworks, and software stacks. In his free time, he enjoys talking trains, planes, and automobiles and secretly wonders why steam trains went out of style. <span class="emoji emoji-steamtrain"></span></p>
     </div>
   </div>
+-->
 </section>
