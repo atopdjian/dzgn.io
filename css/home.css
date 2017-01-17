@@ -188,3 +188,33 @@ div.code {
 
 /* LARGE ONLY */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+.hSmall{
+  padding-top: 80px;
+  background-color: #313131;
+}
+
+#logoSmall{
+  align-items: center;
+  width: 130px;
+}
+
+header{
+  height: auto;
+}
+
+.brandSmall{
+  font-family: 'Paytone One';
+  color: white;
+  font-size: 34px;
+  margin-left: -8px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.firstTitle{
+  margin-top: 20px;
+}
+
