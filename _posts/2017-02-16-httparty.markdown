@@ -4,7 +4,7 @@ title:  "HTTParty"
 thumbnail: "img/thumbnails/nyc.png"
 date:   2017-02-16 5:00:00 -0400
 tags: event
-permalink: httparty
+permalink: httparty.html
 ---
 
 more to come!
