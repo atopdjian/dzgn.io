@@ -5,7 +5,7 @@ thumbnail: "img/rehan.png"
 thumbnail-hover: "img/rehanHover.png"
 date:   2015-10-10
 tags: team
-permalink: rehan
+permalink: rehan.html
 ---
 <div class="row">
   <div class="small-12 large-4 columns">

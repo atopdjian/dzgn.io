@@ -5,7 +5,7 @@ thumbnail: "img/eddy.png"
 thumbnail-hover: "img/eddyHover.png"
 date:   2015-10-12
 tags: team
-permalink: eddy
+permalink: eddy.html
 ---
 <div class="row">
     <div class="small-12 large-4 columns">

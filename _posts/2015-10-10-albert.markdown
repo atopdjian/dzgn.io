@@ -5,7 +5,7 @@ thumbnail: "img/albert.png"
 thumbnail-hover: "img/albertHover.png"
 date:   2015-10-10
 tags: team
-permalink: albert
+permalink: albert.html
 ---
 <div class="row">
 <div class="small-12 large-4 columns">
