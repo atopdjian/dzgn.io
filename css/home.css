@@ -1,3 +1,7 @@
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+
 .project-title {
   text-align: center;
 }
@@ -75,6 +79,71 @@ div.code {
   font-family: 'Lato', sans-serif;
 }
 
+.thumbnail-container {
+    position: relative;
+    display: block;
+    background-color: #000;
+    opacity: 1;
+  overflow: hidden;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+    opacity: 0.75;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.thumbnail-text {
+    position: absolute;
+    white-space: normal;
+    bottom: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    opacity: 0;
+    text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    background-color: #12abc4;
+    color: white;
+}
+
+.thumbnail-tile {
+    margin-bottom: 30px;
+}
+
+.card-style{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /************************/
 /***** MEDIA QUERIES ****/
 /************************/
@@ -87,6 +156,24 @@ div.code {
     font-size: 24px;
     bottom: 20px;
     text-shadow: 2px 2px 20px #313131;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .body-dark{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contentButton{
+    font-size: 24px;
+  }
+  ul{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  code{
+    font-size: 20px;
   }
 }
 
@@ -101,3 +188,29 @@ div.code {
 
 /* LARGE ONLY */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+.hSmall{
+  padding-top: 80px;
+  background-color: #313131;
+}
+
+#logoSmall{
+  align-items: center;
+  width: 130px;
+}
+
+.brandSmall{
+  font-family: 'Paytone One';
+  color: white;
+  font-size: 34px;
+  margin-left: -8px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.firstTitle{
+  margin-top: 20px;
+}
+

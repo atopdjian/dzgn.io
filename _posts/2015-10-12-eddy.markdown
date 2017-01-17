@@ -1,0 +1,21 @@
+---
+layout: team
+title:  "Eddy"
+thumbnail: "img/eddy.png"
+thumbnail-hover: "img/eddyHover.png"
+date:   2015-10-12
+tags: team
+permalink: eddy
+---
+<div class="row">
+    <div class="small-12 large-4 columns">
+      <img src="img/eddy.png" class="bio-pic">
+    </div>
+    <div class="small-12 large-8 column">
+      <div class="bio-container">
+        <h1>Eddy Man Kim<a class="social" target="_blank" href="http://eddymankim.com"><i class="fa fa-globe fa-2x"></i></a></h1>
+        <p class="body-dark">Co-Founder | Pixel Obsessor</p>
+      </div>
+      <p class="body-dark bio">Eddy Man is a designer, researcher, educator, and entrepreneur. A technologist and futurist at heart, Eddy Man is interested in interdisciplinary efforts to mutually augment design and technology—especially as they relate to projective trends in new media. Eddy Man received his Bachelor of Architecture from Cornell University and his Master in Design Studies at Harvard University Graduate School of Design, with a concentration in Design Technology. Eddy Man has co-founded openUU, an award-winning design research agency based in Hong Kong. Eddy Man has worked in the offices of Posco A.C., Robert A.M. Stern Architects, and EPIPHYTE Lab. He has also taught at The University of Hong Kong and Hong Kong Interior Design Association.</p>
+    </div>
+</div>

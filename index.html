@@ -15,113 +15,50 @@ layout: default
 <section class="row">
   <div class="small-12 columns">
     <h2>Projects</h2>
-    <div class="thumbnail">
-      <a data-open="nycModal">
-        <img src="img/thumbnailNYC.png" class="full-width img" />
-        <span class="thumbnail-title">Carnegie Mellon NYC</span>
-      </a>
-    </div>
   </div>
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "project" %}
+        <div class="small-12 medium-4 large-3 columns thumbnail-tile">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="thumbnail-container">
+              <img class="thumbnail-image" src="{{ post.thumbnail }}">
+              <span class="thumbnail-text">{{ post.title }}</span>
+              {% if post.banner %}
+                <span class="banner">{{ post.banner }}</span>
+              {% endif %}
+            </div>
+          </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
 </section>
 
-<div class="full reveal" id="nycModal" data-reveal>
-  <button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <h1 class="project-title">Carnegie Mellon NYC</h1>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/nycDIO.png" alt="Home Page" />
-    </div>
-    <div class="small-12 columns">
-      <a href="http://nyc.desgn.io" class="nycButton contentButton">Check out the full site</a>
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/slack.png" alt="Slack" />
-    </div>
-    <div class="small-12 columns">
-      <p class="body-dark text">In order to keep track and make sure everyone was up to speed on what each team was doing we decided to use Slack for communications and updates project wide.</p>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="body-dark text">Process</h3>
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/cmuEntities.png" alt="Other CMU Programs" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/cornell.png" alt="Cornell Campuses" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/uc1.png" alt="UC Schools Part 1" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/uc2.png" alt="UC Schools Part 2" />
-    </div>
-    <div class="small-12 columns">
-      <p class="body-dark text">When starting this project we looked into other Carnegie Mellon campuses as well as other universities for how they deal with multiple campuses with differant goals in mind. Cornell uses the same main branding across their entities with a secondary brand image representing that particular campus. In comparison the University of California system uses a different brand image for each campus and different visual language.</p>
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/brandingInspiration.png" alt="Branding Inspiration" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/nycInspiration.png" alt="NYC Inspiration" />
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="small-12 columns">
-      <h3 class="body-dark text">Questions to Answer</h3>
-    </div>
-    <div class="small-12 columns">
-      <ul class="body-dark">
-        <li>What are the public (emotional) associations of CMU?</li>
-        <li>What is the NYC campus providing? What is its program structure? What will their students recieve?</li>
-        <li>What kind of people does CMU want to attract to their nyc campus?</li>
-        <li>What kind of people does cmu currently attract?</li>
-        <li>Should the nyc and pitt campuses have a different audience?</li>
-      </ul>
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/brandSketches.png" alt="Brand Sketches" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/brandingProcess.png" alt="Branding Process" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/programChart.png" alt="Program Chart" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/originalSiteBreakdown.png" alt="Original Site Breakdown" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/siteBreakdownDetail.png" alt="Site Breakdown Detail" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/bannerIterations.png" alt="Banner Iteration" />
-    </div>
-    <div class="small-12 columns">
-      <img class="image noSelect" src="img/nyc/colorIteration.png" alt="Color Iteration" />
-    </div>
-  </div>
-</div>
 
 <section class="row">
   <div class="small-12 columns">
     <h2>Events</h2>
   </div>
 
-  <div class="small-12 columns link-svgline">
-    <a href="wdw.html" target="_blank">WDW<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a>
-  </div>
+  {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "event" %}
+        <div class="small-12 medium-4 large-3 columns thumbnail-tile">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="thumbnail-container">
+              <img class="thumbnail-image" src="{{ post.thumbnail }}">
+              <span class="thumbnail-text">{{ post.title }}</span>
+              {% if post.banner %}
+                <span class="banner">{{ post.banner }}</span>
+              {% endif %}
+            </div>
+          </a>
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
 </section>
 
 <section class="row">
@@ -129,106 +66,19 @@ layout: default
     <h2>Team</h2>
   </div>
 
-  <div class="small-6 large-3 columns">
-    <a data-open="eddyModal">
-      <div class="profile-container" id="eddy">
-        <img src="img/eddy.png" class="full-width profile" />
-        <img src="img/eddyHover.png" class="full-width profile-hover" />
+    {% for post in site.posts %}
+    {% for tag in post.tags %}
+      {% if tag == "team" %}
+        <div class="small-6 medium-6 large-3 columns">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="profile-container" id="{{ post.permalink }}">
+              <img class="full-width profile" src="{{ post.thumbnail }}">
+              <img class="full-width profile-hover" src="{{ post.thumbnail-hover }}">
+            </div>
+          </a>
       </div>
-    </a>
-  </div>
-
-  <div class="large reveal" id="eddyModal" data-reveal>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="small-12 large-4 columns">
-      <img src="img/eddy.png" class="bio-pic">
-    </div>
-    <div class="small-12 large-8 column">
-      <div class="bio-container">
-        <h1>Eddy Man Kim<a class="social" target="_blank" href="http://eddymankim.com"><i class="fa fa-globe fa-2x"></i></a></h1>
-        <p class="body-dark">Co-Founder | Pixel Obsessor</p>
-      </div>
-      <p class="body-dark bio">Eddy Man is a designer, researcher, educator, and entrepreneur. A technologist and futurist at heart, Eddy Man is interested in interdisciplinary efforts to mutually augment design and technology—especially as they relate to projective trends in new media. Eddy Man received his Bachelor of Architecture from Cornell University and his Master in Design Studies at Harvard University Graduate School of Design, with a concentration in Design Technology. Eddy Man has co-founded openUU, an award-winning design research agency based in Hong Kong. Eddy Man has worked in the offices of Posco A.C., Robert A.M. Stern Architects, and EPIPHYTE Lab. He has also taught at The University of Hong Kong and Hong Kong Interior Design Association.</p>
-    </div>
-  </div>
-
-  <div class="small-6 large-3 columns">
-    <a data-open="rehanModal">
-      <div class="profile-container" id="rehan">
-        <img src="img/rehan.png" class="full-width profile" />
-        <img src="img/rehanHover.png" class="full-width profile-hover" />
-      </div>
-    </a>
-  </div>
-
-  <div class="large reveal" id="rehanModal" data-reveal>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="small-12 large-4 columns">
-      <img src="img/rehan.png" class="bio-pic">
-    </div>
-    <div class="small-12 large-8 column">
-      <div class="bio-container">
-        <h1>Rehan Butt <a class="social" target="_blank" href="http://rehanbutt.com"><i class="fa fa-globe fa-2x"></i></a></h1>
-        <p class="body-dark">Co-Founder | Colorist</p>
-      </div>
-      <p class="body-dark bio">Rehan is a masters student at Carnegie Mellon University studying Tangible Interaction Design, a degree with the intention to bring together his passions in design <span class="emoji emoji-palette"></span> and technology.<span class="emoji emoji-computer"></span> Rehan loves to travel <span class="emoji emoji-airplane"></span>, and has been fortunate enough to live all over the world <span class="emoji emoji-globe_asia"></span>. Trying everyday to bring the unique aspects of each culture into his work. In his free time, he enjoys photography <span class="emoji emoji-camera"></span> and creating cute digital illustrations.<span class="emoji emoji-penguin_head"></span> </p>
-    </div>
-  </div>
-
-  <div class="small-6 large-3 columns">
-    <a data-open="albertModal">
-      <div class="profile-container" id="albert">
-        <img src="img/albert.png" class="full-width profile" />
-        <img src="img/albertHover.png" class="full-width profile-hover" />
-      </div>
-    </a>
-  </div>
-
-  <div class="large reveal" id="albertModal" data-reveal>
-    <p></p>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="small-12 large-4 columns">
-      <img src="img/albert.png" class="bio-pic">
-    </div>
-    <div class="small-12 large-8 column">
-      <div class="bio-container">
-        <h1>Albert Topdjian</h1>
-        <p class="body-dark">Co-Founder |</p>
-      </div>
-      <p class="body-dark bio">Albert will be graduating with a degree in Industrial Design from Carnegie Mellon University with a minor in entrepreneurship for creative industries. During his time at CMU, Albert has been mentored as an Innovation Scholar in the Center for Innovation and Entrepreneurship, was a soft-goods designer for Lexicon Design in Pittsburgh, and worked closely with American Eagle Outfitters as a design researcher. Other than his professional accomplishments, Albert loves to cook, bike, windsurf, and play jazz music on his guitar, trumpet, and piano.
-        <br>
-        <br>“One might say that the path to simplicity is quite complex” </p>
-    </div>
-  </div>
-
-  <div class="small-6 large-3 columns">
-    <a data-open="lukeModal">
-      <div class="profile-container" id="luke">
-        <img src="img/luke.png" class="full-width profile" />
-        <img src="img/lukeHover.png" class="full-width profile-hover" />
-      </div>
-    </a>
-  </div>
-
-  <div class="large reveal" id="lukeModal" data-reveal>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <div class="small-12 large-4 columns">
-      <img src="img/luke.png" class="bio-pic">
-    </div>
-    <div class="small-12 large-8 column">
-      <div class="bio-container">
-        <h1>Luke Hottinger</h1>
-        <p class="body-dark">Co-Founder | Data Wrangler</p>
-      </div>
-      <p class="body-dark bio">Luke is a junior in the Information Systems Program at Carnegie Mellon University with a minor in Physical Computing. Having developed software for CMU's Student Affairs Operations and The Boeing Company <span class="emoji emoji-airplane"></span>, he has gained industry experience in the areas of IT strategy and technology management. An avid programmer and developer, Luke enjoys working with a variety of languages, web frameworks, and software stacks. In his free time, he enjoys talking trains, planes, and automobiles and secretly wonders why steam trains went out of style. <span class="emoji emoji-steamtrain"></span></p>
-    </div>
-  </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  
 </section>
