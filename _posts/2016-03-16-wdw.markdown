@@ -9,7 +9,7 @@ permalink: wdw
 
 <div class="row">
   <div class="small-12 columns link-svgline">
-    <h2 class="body-dark">Introduction</h2>
+    <h2 class="body-dark firstTitle">Introduction</h2>
 
     <p class="body-dark">If you are viewing this site, chances are it is Saturday, April 9th and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!</p>
 
