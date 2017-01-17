@@ -174,3 +174,13 @@ div.code {
 
 /* LARGE ONLY */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+.hSmall{
+  padding: 30px;
+  background-color: #313131;
+}
+
+#logoSmall{
+  align-items: center;
+  width: 150px;
+}
