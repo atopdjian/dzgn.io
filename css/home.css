@@ -1,3 +1,7 @@
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+
 .project-title {
   text-align: center;
 }
@@ -75,6 +79,57 @@ div.code {
   font-family: 'Lato', sans-serif;
 }
 
+.thumbnail-container {
+    position: relative;
+    display: block;
+    background-color: #000;
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+    opacity: 0.8;
+}
+
+.thumbnail-text {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: #FFF;
+    opacity: 0;
+    text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
+    font-size: 33px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    background-color: #12abc4;
+    color: white;
+}
+
+.thumbnail-tile {
+    margin-bottom: 30px;
+}
+
+.card-style{
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 /************************/
 /***** MEDIA QUERIES ****/
 /************************/
@@ -87,6 +142,24 @@ div.code {
     font-size: 24px;
     bottom: 20px;
     text-shadow: 2px 2px 20px #313131;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .body-dark{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .contentButton{
+    font-size: 24px;
+  }
+  ul{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  code{
+    font-size: 20px;
   }
 }
 

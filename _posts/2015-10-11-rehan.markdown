@@ -1,0 +1,21 @@
+---
+layout: team
+title:  "Rehan"
+thumbnail: "img/rehan.png"
+thumbnail-hover: "img/rehanHover.png"
+date:   2015-10-10
+tags: team
+permalink: rehan
+---
+<div class="row">
+  <div class="small-12 large-4 columns">
+    <img src="img/rehan.png" class="bio-pic">
+  </div>
+  <div class="small-12 large-8 column">
+    <div class="bio-container">
+      <h1>Rehan Butt <a class="social" target="_blank" href="http://rehanbutt.com"><i class="fa fa-globe fa-2x"></i></a></h1>
+      <p class="body-dark">Co-Founder | Colorist</p>
+    </div>
+    <p class="body-dark bio">Rehan is a masters student at Carnegie Mellon University studying Tangible Interaction Design, a degree with the intention to bring together his passions in design <span class="emoji emoji-palette"></span> and technology.<span class="emoji emoji-computer"></span> Rehan loves to travel <span class="emoji emoji-airplane"></span>, and has been fortunate enough to live all over the world <span class="emoji emoji-globe_asia"></span>. Trying everyday to bring the unique aspects of each culture into his work. In his free time, he enjoys photography <span class="emoji emoji-camera"></span> and creating cute digital illustrations.<span class="emoji emoji-penguin_head"></span> </p>
+  </div>
+</div>
