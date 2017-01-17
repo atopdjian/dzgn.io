@@ -84,6 +84,7 @@ div.code {
     display: block;
     background-color: #000;
     opacity: 1;
+  overflow: hidden;
 }
 
 .thumbnail-container:hover .thumbnail-text {
@@ -91,11 +92,24 @@ div.code {
 }
 
 .thumbnail-container:hover .thumbnail-image {
-    opacity: 0.8;
+    opacity: 0.75;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .thumbnail-text {
     position: absolute;
+    white-space: normal;
     bottom: 20px;
     margin: 0 auto;
     left: 0;
@@ -104,7 +118,7 @@ div.code {
     opacity: 0;
     text-shadow: 0px 0px 5px rgba(50, 50, 50, 1);
     font-size: 33px;
-    line-height: 30px;
+    line-height: 36px;
     text-align: center;
 }
 
@@ -150,7 +164,7 @@ div.code {
     padding-left: 0px;
     padding-right: 0px;
   }
-  
+
   .contentButton{
     font-size: 24px;
   }
