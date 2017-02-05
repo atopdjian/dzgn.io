@@ -17,3 +17,13 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+collections:
+  team:
+    output: true
+  
+  projects:
+    output: true
+  
+  events:
+    output: true
