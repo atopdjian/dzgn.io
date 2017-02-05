@@ -4,7 +4,7 @@ title:  "Toolkit"
 thumbnail: "img/thumbnails/toolkit.png"
 date:   2016-01-10
 tags: project
-permalink: toolkit.html
+redirect: https://toolkit.dzgn.io
 ---
 
 <head>

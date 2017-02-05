@@ -20,7 +20,7 @@ layout: default
   {% assign sorted_projects = (site.projects | sort: 'date' | reverse) %}
   {% for project in sorted_projects %}
     <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-      <a class="post-link" href="{{ project.url | prepend: site.baseurl }}">
+      <a class="post-link" {% if project.redirect %} target="_blank" href="{{ project.redirect }}"{% else %}href="{{ project.url | prepend: site.baseurl }}"{% endif %}>
         <div class="thumbnail-container">
           <img class="thumbnail-image" src="{{ project.thumbnail }}">
           <span class="thumbnail-text">{{ project.title }}</span>
@@ -42,7 +42,7 @@ layout: default
   {% assign sorted_events = (site.events | sort: 'date' | reverse) %}
   {% for event in sorted_events %}
     <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-      <a class="post-link" href="{{ event.url | prepend: site.baseurl }}">
+      <a class="post-link" {% if event.redirect %}target="_blank" href="{{ event.redirect }}"{% else %}href="{{ event.url | prepend: site.baseurl }}"{% endif %}>
         <div class="thumbnail-container">
           <img class="thumbnail-image" src="{{ event.thumbnail }}">
           <span class="thumbnail-text">{{ event.title }}</span>
