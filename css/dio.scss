@@ -246,30 +246,6 @@ h1 a.social {
 }
 
 
-/************************/
-/***** MEDIA QUERIES ****/
-/************************/
-
-
-/* SMALL ONLY */
-@media screen and (max-width: 39.9375em) {}
-
-/* MEDIUM AND UP */
-@media screen and (min-width: 40em) {}
-
-/* MEDIUM ONLY */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
-
-/* LARGE AND UP */
-@media screen and (min-width: 64em) {}
-
-/* LARGE ONLY */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
-
-
-
-
-
 //MOVED FROM HOME.SCSS
 /************************//************************/
 
@@ -306,26 +282,6 @@ h1 a.social {
 
 .bio-link:hover{
   color: $dio-teal;
-}
-
-#wdwWatermarkRight {
-    position: absolute;
-    right: -200px;
-    transform:rotate(-30deg);
-    -webkit-transform:rotate(-30deg);
-    opacity: 0.3;
-    width: 700px;
-    top: 500px;
-}
-
-#wdwWatermarkLeft {
-    position: relative;
-    margin-top: 1100px;
-    transform:rotate(30deg);
-    -webkit-transform:rotate(30deg);
-    opacity: 0.3;
-    width: 1000px;
-    left: -730px;
 }
 
 .thumbnail-container {
@@ -417,7 +373,19 @@ h1 a.social {
     font-size: 20px;
     margin-left: 10px;
   }
-  code{
-    font-size: 20px;
-  }
+//  code{
+//    font-size: 20px;
+//  }
 }
+
+/* MEDIUM AND UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE AND UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
