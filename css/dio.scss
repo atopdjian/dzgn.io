@@ -9,12 +9,9 @@ $dio-teal: #00e8d1;
 
 $dio-teal-hover: darken($dio-teal, $color-percentage);
 
-/*************************/
-/***** DZGN.IO STYLE *****/
-/*************************/
-
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
 
 body, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Lato', sans-serif;
@@ -96,10 +93,6 @@ header {
   user-drag: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
-}
-
-.full-width {
-  width: 100%;
 }
 
 .logo-container {
