@@ -10,7 +10,7 @@ $dio-teal: #00e8d1;
 $dio-teal-hover: darken($dio-teal, $color-percentage);
 
 @import url(https://fonts.googleapis.com/css?family=Paytone+One);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 33px;
   margin-top: 120px;
 }
