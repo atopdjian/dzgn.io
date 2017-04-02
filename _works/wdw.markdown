@@ -6,104 +6,78 @@ date: 2016-03-16
 tag: event
 ---
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h2 class="body-dark firstTitle">Introduction</h2>
+## Introduction
 
-    <p class="body-dark">If you are viewing this site, chances are it is Saturday, April 9th and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!</p>
+If you are viewing this site, chances are it is Saturday, April 9th and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!
 
-    <p class="body-dark">This workshop will cover the basics of programming in HTML and CSS. We will then turn up the heat and discuss templating webpages with <strong><a href="https://jekyllrb.com/" target="_blank">Jekyll<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></strong>.</p>
+This workshop will cover the basics of programming in HTML and CSS. We will then turn up the heat and discuss templating webpages with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 
-    <p class="body-dark">You can view the presentation <strong><a href="https://docs.google.com/presentation/d/1atVlVMFR8oGAXJKRoR78Op2sxHMyvD-DqhUKsNTeGpM/edit?usp=sharing" target="_blank">HERE<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></strong> for reference.</p>
-  </div>
-</div>
+You can view the presentation <a href="https://docs.google.com/presentation/d/1atVlVMFR8oGAXJKRoR78Op2sxHMyvD-DqhUKsNTeGpM/edit?usp=sharing" target="_blank">HERE</a> for reference.
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h2 class="body-dark">Skills We'll Learn</h2>
-    <p class="body-dark"><span class="emoji emoji-ballot_box_with_check"></span> Setting up your development environment</p>
-    <p class="body-dark"><span class="emoji emoji-ballot_box_with_check"></span> HTML &amp; CSS</p>
-    <p class="body-dark"><span class="emoji emoji-ballot_box_with_check"></span> Using Jekyll</p>
-    <p class="body-dark"><span class="emoji emoji-ballot_box_with_check"></span> Markdown</p>
-  </div>
-</div>
+## Skills We'll Learn
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h2 class="body-dark">Your Dev Environment</h2>
-    <p class="body-dark">...is sacred - preach. <span class="emoji emoji-pray"></span></p>
-    <p class="body-dark">Jokes aside, your development environment will take some preparation. For our workshop, we will be setting everyone up with Brackets, an open source text editor, and Jekyll, the Ruby-based gem.</p>
-  </div>
-</div>
+* Setting up your development environment
+* HTML &amp; CSS
+* Using Jekyll
+* Markdown
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h3 class="body-dark">Installing Brackets</h3>
-    <p class="body-dark">Visit <a href="http://brackets.io/" target="_blank">brackets.io<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a> to view the brackets project site. Please download the most recent version of Brackets with or without Extract.</p>
-  </div>
-</div>
+## Your Dev Environment
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h3 class="body-dark">Installing Git (Windows Only)</h3>
-    <p class="body-dark">Download and install <a href="https://github.com/git-for-windows/git/releases/download/v2.8.1.windows.1/Git-2.8.1-64-bit.exe" target="_blank">this<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a> version of Git for Windows. Do not change any options on the installer - the defaults are the ideal settings.</p>
-  </div>
-</div>
+...is sacred - preach. <span class="emoji emoji-pray"></span>
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h3 class="body-dark">Installing Jekyll</h3>
-    <p class="body-dark">Jekyll runs on the Ruby programming language. Both Windows and Mac users will need to install Ruby, but the process is quite different depending on your OS.</p>
-  </div>
-</div>
+Jokes aside, your development environment will take some preparation. For our workshop, we will be setting everyone up with Brackets, an open source text editor, and Jekyll, the Ruby-based gem.
 
-<div class="row">
-  <div class="small-12 medium-12 large-12 columns link-svgline">
-    <div class="code-block">
-      <pre><code><strong>#  Mac Users</strong>
-        
- #  Open Terminal on Mac and install Homebrew by running
- 
-      <strong>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</strong>
 
- # Update to the newest Ruby
+### Installing Brackets
 
-      <strong>brew install rbenv ruby-build</strong>
-      <strong>echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile</strong>
-      <strong>source ~/.bash_profile</strong>
-      <strong>rbenv install 2.2.3</strong>
-      <strong>rbenv global 2.2.3</strong>
-      <strong>ruby -v</strong>
-      
- # Install Jekyll
-      
-      <strong>gem install jekyll</strong></code></pre>
-    </div>
-  </div>
+Visit <a href="http://brackets.io/" target="_blank">brackets.io</a> to view the brackets project site. Please download the most recent version of Brackets with or without Extract.
 
-  <div class="small-12 medium-12 large-12 columns code link-svgline">
-    <div class="code-block">
-      <pre><code><strong>#  Windows Users</strong>
-        
- #  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a> version of Ruby
- #  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
- #  Open GitBash (installed with Git for Windows) and run
- 
-      <strong>gem install jekyll</strong></code></pre>
-    </div>
-  </div>
-</div>
 
-<div class="row">
-  <div class="small-12 columns link-svgline">
-    <h2 class="body-dark">Resources</h2>
-    <ul>
-      <li><a href="https://docs.google.com/presentation/d/1atVlVMFR8oGAXJKRoR78Op2sxHMyvD-DqhUKsNTeGpM/edit?usp=sharing" target="_blank">The Presentation<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-      <li><a href="https://jekyllrb.com/" target="_blank">Jekyll Documentation<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-      <li><a href="https://jekyllrb.com/" target="_blank">Markdown Cheatsheet<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-      <li><a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorials<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-      <li><a href="http://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorials<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-      <li><a href="https://github.com/eddymankim/testSite" target="_blank">Eddy's Test Site<svg class="link-svgline"><use xlink:href="#svg_line"/></svg></a></li>
-    </ul>
-  </div>
-</div>
+### Installing Git (Windows Only)
+
+Download and install <a href="https://github.com/git-for-windows/git/releases/download/v2.8.1.windows.1/Git-2.8.1-64-bit.exe" target="_blank">this</a> version of Git for Windows. Do not change any options on the installer - the defaults are the ideal settings.
+
+
+### Installing Jekyll
+
+Jekyll runs on the Ruby programming language. Both Windows and Mac users will need to install Ruby, but the process is quite different depending on your OS.
+
+
+{% highlight html%}
+  #  Mac Users     
+  #  Open Terminal on Mac and install Homebrew by running
+
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+  # Update to the newest Ruby
+
+  brew install rbenv ruby-build
+  echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+  source ~/.bash_profile
+  rbenv install 2.2.3
+  rbenv global 2.2.3
+  ruby -v
+
+  # Install Jekyll
+
+  gem install jekyll
+
+
+  #  Windows Users
+
+  #  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this</a> version of Ruby
+  #  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
+  #  Open GitBash (installed with Git for Windows) and run
+
+  gem install jekyll
+{% endhighlight %}
+
+
+
+## Resources
+* <a href="https://docs.google.com/presentation/d/1atVlVMFR8oGAXJKRoR78Op2sxHMyvD-DqhUKsNTeGpM/edit?usp=sharing" target="_blank">The Presentation</a>
+* <a href="https://jekyllrb.com/" target="_blank">Jekyll Documentation</a>
+* <a href="https://jekyllrb.com/" target="_blank">Markdown Cheatsheet</a>
+* <a href="http://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorials</a>
+* <a href="http://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorials</a>
+* <a href="https://github.com/eddymankim/testSite" target="_blank">Eddy's Test Site</a>
