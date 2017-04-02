@@ -33,6 +33,12 @@ h2 {
   font-weight: 400;
   margin-bottom: 33px;
   margin-top: 60px;
+  border-bottom: 5px solid $dio-teal;
+  display: inline-block;
+//  text-decoration: underline;
+//  -webkit-text-decoration-color: $dio-teal;
+//  -moz-text-decoration-color: $dio-teal;
+//  text-decoration-color: $dio-teal;
 }
 
 h3 {
