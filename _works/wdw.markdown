@@ -43,7 +43,7 @@ Download and install <a href="https://github.com/git-for-windows/git/releases/do
 Jekyll runs on the Ruby programming language. Both Windows and Mac users will need to install Ruby, but the process is quite different depending on your OS.
 
 
-{% highlight html%}
+{% highlight terminal%}
   #  Mac Users     
   #  Open Terminal on Mac and install Homebrew by running
 
