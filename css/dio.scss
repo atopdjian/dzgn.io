@@ -1,0 +1,484 @@
+---
+---
+
+$dio-gradient: linear-gradient(to left, #00c9ff, #92fe9d);
+$dio-black: #313131;
+$dio-teal: #00e8d1;
+/*************************/
+/***** DZGN.IO STYLE *****/
+/*************************/
+
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: white;
+  color: $dio-black;
+  font-size: 24px;
+}
+
+h1 {
+  color: $dio-black;
+  margin-top: 20px;
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 33px;
+  margin-top: 120px;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+p {
+  line-height: 1.3;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+a {
+  color: $dio-teal;
+}
+
+a:hover {
+  color: greenyellow;
+}
+
+::selection{
+  background: $dio-teal;
+}
+
+::-moz-selection{
+  background: $dio-teal;
+}
+
+header {
+  background: $dio-gradient;
+  padding: 30px;
+  padding-top: 40px;
+}
+
+//header .row {
+//  position: relative;
+//  top: 50%;
+//  transform: translateY(-50%);
+//}
+
+
+/************************/
+/**** CLASS SELECTORS ***/
+/************************/
+
+
+.brand {
+  font-family: 'Paytone One';
+  color: white;
+  font-size: 36px;
+  margin-left: -10px;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thumbnail {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: black;
+  opacity: 1;
+  border-style: none;
+  box-shadow: 0 0 0 0;
+  border-radius: 20px;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 0 0 0;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.thumbnail:hover .thumbnail-title {
+  opacity: 1;
+}
+
+.thumbnail:hover .img {
+  opacity: 0.6;
+}
+
+.thumbnail-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 0px;
+  right: 0px;
+  color: #FFF;
+  opacity: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.reveal {
+  border-radius: 20px;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.footer {
+  width: 100%;
+  background: $dio-gradient;
+  margin-top: 140px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.profile {
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.profile:hover {
+  opacity: 0.0;
+}
+
+.profile-hover {
+  border-radius: 100%;
+  padding: 15px;
+}
+
+.profile-container {
+  position: relative;
+}
+
+.profile-container:hover {
+  animation-name: boop;
+  animation-duration: 0.1s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.profile-container img:last-child {
+  display: none
+}
+
+.profile-container:hover img:first-child {
+  display: none
+}
+
+.profile-container:hover img:last-child {
+  display: inline-block
+}
+
+.social {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  color: $dio-black;
+}
+
+h1 a.social {
+  font-size: 1.5rem;
+}
+
+.contentButton {
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nycButton {
+  background-color: #EA4D5B;
+  color: white;
+}
+
+.nycButton:hover {
+  background-color: #d74955;
+}
+
+.svg-wrap {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+
+/************************/
+/***** ID SELECTORS *****/
+/************************/
+
+
+#logo {
+  width: 140px;
+}
+
+
+/************************/
+/****** ANIMATIONS ******/
+/************************/
+
+
+@keyframes boop {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+
+/************************/
+/***** MEDIA QUERIES ****/
+/************************/
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {}
+
+/* MEDIUM AND UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE AND UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+
+
+
+
+
+//MOVED FROM HOME.SCSS
+/************************//************************/
+
+/************************//************************/
+
+/************************//************************/
+
+
+
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.bio-pic {
+  border-radius: 100%;
+  margin-top: 60px;
+}
+
+.bio {
+  padding-top: 30px;
+}
+
+.bio-container {
+  text-align: left;
+}
+
+#wdwWatermarkRight {
+    position: absolute;
+    right: -200px;
+    transform:rotate(-30deg);
+    -webkit-transform:rotate(-30deg);
+    opacity: 0.3;
+    width: 700px;
+    top: 500px;
+}
+
+#wdwWatermarkLeft {
+    position: relative;
+    margin-top: 1100px;
+    transform:rotate(30deg);
+    -webkit-transform:rotate(30deg);
+    opacity: 0.3;
+    width: 1000px;
+    left: -730px;
+}
+
+div.code {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.code-block {
+  width: 100%;
+  background-color: #4c4c4c;
+  border-radius: 20px;
+}
+
+.code-block pre {
+  padding: 20px;
+}
+
+.code-block code {
+  background-color: transparent;
+  color: #FFF;
+  border: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.thumbnail-container {
+    position: relative;
+    display: block;
+    background-color: white;
+    opacity: 1;
+    overflow: hidden;
+}
+
+.thumbnail-container:hover{
+  border: 10px solid $dio-teal;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+    opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.thumbnail-text {
+    position: absolute;
+    white-space: normal;
+    bottom: 20px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    color: $dio-teal;
+    background-color: $dio-black;
+    opacity: 0;
+    font-size: 33px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.banner {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 700;
+    background-color: #12abc4;
+    color: white;
+}
+
+.thumbnail-tile {
+    margin-bottom: 30px;
+}
+
+/************************/
+/***** MEDIA QUERIES ****/
+/************************/
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {
+  .thumbnail .thumbnail-title {
+    opacity: 1;
+    font-size: 24px;
+    bottom: 20px;
+    text-shadow: 2px 2px 20px #313131;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .body-dark{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .contentButton{
+    font-size: 24px;
+  }
+  ul{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  code{
+    font-size: 20px;
+  }
+}
+
+.hSmall{
+  padding-top: 80px;
+  background-color: #313131;
+}
+
+#logoSmall{
+  align-items: center;
+  width: 130px;
+}
+
+.brandSmall{
+  font-family: 'Paytone One';
+  color: white;
+  font-size: 34px;
+  margin-left: -8px;
+}
+
+.projectTitle{
+  text-align: center;
+}
+
+.firstTitle{
+  margin-top: 20px;
+}
+

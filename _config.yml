@@ -27,3 +27,6 @@ collections:
   
   events:
     output: true
+    
+  toolkit:
+    output: true

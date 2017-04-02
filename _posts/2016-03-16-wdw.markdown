@@ -2,9 +2,7 @@
 layout: post
 title:  "Web Dev Weekend"
 thumbnail: "img/thumbnails/wdw.png"
-date:   2016-03-16
-tags: event
-permalink: wdw.html
+date: 2016-03-16
 ---
 
 <div class="row">

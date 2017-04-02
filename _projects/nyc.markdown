@@ -3,7 +3,6 @@ layout: post
 title:  "Carnegie Mellon NYC"
 thumbnail: "img/thumbnails/nyc.png"
 date:   2015-10-11
-tags: project
 ---
 
   <div class="row">
