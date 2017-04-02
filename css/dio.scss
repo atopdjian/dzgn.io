@@ -70,6 +70,19 @@ a:hover {
   background: $dio-teal;
 }
 
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+// Header
+
 header {
   background: $dio-gradient;
   padding: 30px;
@@ -84,20 +97,14 @@ header {
   margin-left: -10px;
 }
 
-.noSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  user-drag: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-}
-
 .logo-container {
   text-align: center;
 }
+
+// End of header
+
+
+// Footer
 
 .footer {
   width: 100%;
@@ -108,6 +115,18 @@ header {
   color: white;
   font-weight: bold;
 }
+
+.social {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  color: $dio-black;
+}
+
+//End of footer
 
 .profile {
   border-radius: 100%;
@@ -145,16 +164,6 @@ header {
 
 .profile-container:hover img:last-child {
   display: inline-block
-}
-
-.social {
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.social:hover {
-  color: $dio-black;
 }
 
 //Bio Page
