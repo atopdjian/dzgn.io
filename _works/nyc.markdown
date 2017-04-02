@@ -7,7 +7,7 @@ date: 2015-10-11
 
 <img class="image noSelect" src="../img/nyc/nycDIO.png" alt="Home Page" />
 
-<a href="http://nyc.desgn.io" class="nyc-button content-button">Check out the full site</a>
+<!--<a href="http://nyc.desgn.io" class="nyc-button content-button">Check out the full site</a>-->
 
 <img class="image noSelect" src="../img/nyc/slack.png" alt="Slack" />
 
