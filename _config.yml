@@ -22,10 +22,7 @@ collections:
   team:
     output: true
   
-  projects:
-    output: true
-  
-  events:
+  works:
     output: true
     
   toolkit:

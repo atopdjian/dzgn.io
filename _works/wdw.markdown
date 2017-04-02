@@ -3,6 +3,7 @@ layout: post
 title:  "Web Dev Weekend"
 thumbnail: "img/thumbnails/wdw.png"
 date:   2016-03-16
+tags: event
 ---
 
 <div class="row">
