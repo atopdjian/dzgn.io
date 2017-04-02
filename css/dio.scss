@@ -56,6 +56,7 @@ ul {
 
 a {
   color: $dio-teal;
+  font-weight: bold;
 }
 
 a:hover {
@@ -489,3 +490,13 @@ div.code {
   margin-top: 20px;
 }
 
+.highlight{
+  border-radius: 5px;
+  pre{
+    padding: 20px;
+    border-radius: 5px;
+    code{
+      background-color: transparent;
+    }
+  }
+}
