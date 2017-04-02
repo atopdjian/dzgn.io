@@ -314,6 +314,10 @@ h1 a.social {
     }
   }
 }
+
+figure.highlight{
+    margin: 0;
+}
 //End of content Pages
 
 
@@ -363,7 +367,17 @@ h1 a.social {
   }
   ul{
     font-size: 20px;
-    margin-left: 10px;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size:  26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .post-content{
+    padding: 10px;
   }
 //  code{
 //    font-size: 20px;
