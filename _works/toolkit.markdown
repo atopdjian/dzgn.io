@@ -15,7 +15,7 @@ tag: project
   
   <div class="row" id="tool-index">
     {% for tool in site.toolkit %}
-      <div class="small-12 medium-4 columns">
+      <div class="small-12 medium-4 columns thumbnail-tile">
         <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}">
           <div class="thumbnail-container">
             <img class="thumbnail-image full-width" src="../img/toolkit/thumbnails/{{ tool.thumbnail }}">

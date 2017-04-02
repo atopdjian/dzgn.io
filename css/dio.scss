@@ -128,7 +128,7 @@ a:hover {
 .thumbnail-text {
   position: absolute;
   white-space: normal;
-  bottom: 20px;
+  bottom: 0px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -137,12 +137,14 @@ a:hover {
   opacity: 0;
   font-size: 33px;
   line-height: 36px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .banner {
   position: absolute;
-  top: 10px;
+  bottom: 60px;
   left: 0;
   right: 0;
   opacity: 0;
