@@ -162,7 +162,6 @@ a:hover {
 //// Team Section
 .profile {
   border-radius: 100%;
-  margin: 15px;
 }
 
 .profile:hover {
@@ -171,12 +170,12 @@ a:hover {
 
 .profile-hover {
   border-radius: 100%;
-  margin: 15px;
   border: 10px solid $dio-teal;
 }
 
 .profile-container {
   position: relative;
+  margin: 5px;
 }
 
 .profile-container:hover {
