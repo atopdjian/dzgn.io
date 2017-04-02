@@ -1,0 +1,416 @@
+---
+---
+
+$color-percentage: 10%;
+
+$dio-gradient: linear-gradient(to left, #00c9ff, #92fe9d);
+$dio-black: #313131;
+$dio-teal: #00e8d1;
+
+$dio-teal-hover: darken($dio-teal, $color-percentage);
+
+@import url(https://fonts.googleapis.com/css?family=Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+
+
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  color: $dio-black;
+  font-size: 18px;
+}
+
+h1 {
+  color: $dio-black;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 33px;
+  margin-top: 60px;
+  border-bottom: 5px solid $dio-teal;
+  display: inline-block;
+//  text-decoration: underline;
+//  -webkit-text-decoration-color: $dio-teal;
+//  -moz-text-decoration-color: $dio-teal;
+//  text-decoration-color: $dio-teal;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+p {
+  line-height: 1.3;
+}
+
+ul {
+  margin-left: 30px;
+}
+
+a {
+  color: $dio-teal;
+  font-weight: bold;
+}
+
+a:hover {
+  color: $dio-teal-hover;
+}
+
+.hero-text{
+  font-size: 24px;
+}
+
+::selection{
+  background: $dio-teal;
+}
+
+::-moz-selection{
+  background: $dio-teal;
+}
+
+.full-width{
+  width:100%
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+}
+
+// Index
+
+//// Works Section
+.project-title {
+  text-align: center;
+}
+
+.thumbnail-container {
+  position: relative;
+  display: block;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.thumbnail-container:hover{
+  border: 10px solid $dio-teal;
+}
+
+.thumbnail-container:hover .thumbnail-text {
+  opacity: 1;
+}
+
+.thumbnail-container:hover .banner {
+  opacity: 1;
+}
+
+.thumbnail-container:hover .thumbnail-image {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.thumbnail-text {
+  position: absolute;
+  white-space: normal;
+  bottom: 0px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: $dio-teal;
+  background-color: $dio-black;
+  opacity: 0;
+  font-size: 33px;
+  line-height: 36px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.banner {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  padding: 5px 20px 5px 20px;
+  font-weight: 700;
+  text-align: center;
+  background-color: $dio-black;
+  color: $dio-teal;
+}
+
+.thumbnail-tile {
+  margin-bottom: 30px;
+}
+//// End of works section
+
+
+//// Team Section
+.profile {
+  border-radius: 100%;
+}
+
+.profile:hover {
+  opacity: 0.0;
+}
+
+.profile-hover {
+  border-radius: 100%;
+  border: 10px solid $dio-teal;
+}
+
+.profile-container {
+  position: relative;
+  margin: 5px;
+}
+
+.profile-container:hover {
+  animation-name: boop;
+  animation-duration: 0.1s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.profile-container img:last-child {
+  display: none
+}
+
+.profile-container:hover img:first-child {
+  display: none
+}
+
+.profile-container:hover img:last-child {
+  display: inline-block
+}
+//// End of team section
+
+// End of index
+
+
+// Header
+
+header {
+  background: $dio-gradient;
+  padding: 30px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-family: 'Paytone One';
+  color: white;
+  font-size: 36px;
+  margin-left: -10px;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+#logo {
+  width: 140px;
+}
+
+
+// End of header
+
+
+// Footer
+footer {
+  width: 100%;
+  background: $dio-gradient;
+  margin-top: 140px;
+  text-align: center;
+  padding: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.social {
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.social:hover {
+  color: $dio-black;
+}
+
+//End of footer
+
+
+//Bio Page
+
+//// Sizing for profle globe icon
+h1 a.social {
+  font-size: 1.5rem;
+}
+
+.bio-pic {
+  border-radius: 100%;
+  margin-top: 60px;
+}
+
+.bio {
+  margin-top: 30px;
+}
+
+.bio-container {
+  text-align: left;
+}
+
+.bio-link{
+  color: $dio-black;
+}
+
+.bio-link:hover{
+  color: $dio-teal;
+}
+
+// End of Bio Page
+
+// Content Pages
+.content-button {
+  width: 100%;
+  height: 80px;
+  font-size: 30px;
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.nyc-button {
+  background-color: #EA4D5B;
+  color: white;
+}
+
+.nyc-button:hover {
+  background-color: #d74955;
+}
+
+.highlight{
+  border-radius: 5px;
+  pre{
+    padding: 20px;
+    border-radius: 5px;
+    code{
+      background-color: transparent;
+    }
+  }
+}
+
+figure.highlight{
+    margin: 0;
+}
+//End of content Pages
+
+
+// Foundation override
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+// End of foundation override
+
+
+/************************/
+/****** ANIMATIONS ******/
+/************************/
+
+
+@keyframes boop {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+/************************/
+/***** MEDIA QUERIES ****/
+/************************/
+
+
+/* SMALL ONLY */
+@media screen and (max-width: 39.9375em) {
+  .thumbnail .thumbnail-title {
+    opacity: 1;
+    font-size: 24px;
+    bottom: 20px;
+    text-shadow: 2px 2px 20px #313131;
+  }
+  .text{
+    font-size: 20px;
+  }
+
+  .contentButton{
+    font-size: 24px;
+  }
+  ul{
+    font-size: 20px;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size:  26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .post-content{
+    padding: 10px;
+  }
+  footer{
+   margin-top: 20px; 
+  }
+  
+  .bio-container{
+    text-align: center;
+    .fa-2x{
+      font-size: 1.5em;
+    }
+  }
+  #logo{
+    width: 80px;
+  }
+  .brand{
+    font-size: 24px;
+    margin-left: -6px;
+  }
+  header{
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+}
+
+/* MEDIUM AND UP */
+@media screen and (min-width: 40em) {}
+
+/* MEDIUM ONLY */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* LARGE AND UP */
+@media screen and (min-width: 64em) {}
+
+/* LARGE ONLY */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
