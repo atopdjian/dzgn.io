@@ -23,6 +23,10 @@ body, h1, h2, h3, h4, h5, h6, p {
 body {
   background-color: white;
   color: $dio-black;
+  font-size: 18px;
+}
+
+.hero-text{
   font-size: 24px;
 }
 
@@ -357,28 +361,6 @@ h1 a.social {
     left: -730px;
 }
 
-div.code {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.code-block {
-  width: 100%;
-  background-color: #4c4c4c;
-  border-radius: 20px;
-}
-
-.code-block pre {
-  padding: 20px;
-}
-
-.code-block code {
-  background-color: transparent;
-  color: #FFF;
-  border: none;
-  font-family: 'Lato', sans-serif;
-}
-
 .thumbnail-container {
     position: relative;
     display: block;
@@ -447,10 +429,6 @@ div.code {
   }
   .text{
     font-size: 20px;
-  }
-  .body-dark{
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .contentButton{
