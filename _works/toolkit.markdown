@@ -9,7 +9,7 @@ tag: project
 <div class="body-content">
   <div class="row">
     <div class="small-12 columns">
-      <p>A open set of resources to help you develop better and quicker with simple stlying blocks.</p>
+      <p class="hero-text">A open set of web development resources to help you develop better and quicker with simple styling blocks.</p>
     </div>
   </div>
   
