@@ -297,44 +297,50 @@ h1 a.social {
 }
 
 .thumbnail-container:hover .thumbnail-text {
-    opacity: 1;
+  opacity: 1;
+}
+
+.thumbnail-container:hover .banner {
+  opacity: 1;
 }
 
 .thumbnail-container:hover .thumbnail-image {
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .thumbnail-text {
-    position: absolute;
-    white-space: normal;
-    bottom: 20px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    color: $dio-teal;
-    background-color: $dio-black;
-    opacity: 0;
-    font-size: 33px;
-    line-height: 36px;
-    text-align: center;
+  position: absolute;
+  white-space: normal;
+  bottom: 20px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  color: $dio-teal;
+  background-color: $dio-black;
+  opacity: 0;
+  font-size: 33px;
+  line-height: 36px;
+  text-align: center;
 }
 
 .banner {
-    position: absolute;
-    top: 10px;
-    left: -10px;
-    padding: 5px 20px 5px 20px;
-    font-weight: 700;
-    background-color: #12abc4;
-    color: white;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  padding: 5px 20px 5px 20px;
+  font-weight: 700;
+  background-color: $dio-black;
+  color: $dio-teal;
 }
 
 .thumbnail-tile {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .highlight{
