@@ -3,13 +3,19 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-<!--    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
-  </header>
-
-  <div class="post-content card-style" itemprop="articleBody">
-    {{ content }}
+  <div class="post-content" itemprop="articleBody">
+    <div class="row">
+    <div class="small-12 large-4 columns">
+      <img src="../img/{{ page.thumbnail }}" class="bio-pic">
+    </div>
+    <div class="small-12 large-8 columns">
+      <div class="bio-container">
+        <h1>{{ page.title }}<a class="social bio-link" target="_blank" href="{{ page.personal-site }}"><i class="fa fa-globe fa-2x"></i></a></h1>
+        <p>{{ page.role }}</p>
+      </div>
+      <p class="bio">{{ content }}</p>
+    </div>
+</div>
   </div>
 
 </article>
