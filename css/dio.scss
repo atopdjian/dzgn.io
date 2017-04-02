@@ -155,7 +155,7 @@ header {
 
 .profile {
   border-radius: 100%;
-  padding: 15px;
+  margin: 15px;
 }
 
 .profile:hover {
@@ -164,7 +164,8 @@ header {
 
 .profile-hover {
   border-radius: 100%;
-  padding: 15px;
+  margin: 15px;
+  border: 10px solid $dio-teal;
 }
 
 .profile-container {
