@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="row">
-  <div class="small-12 columns link-svgline">
+  <div class="small-12 columns hero-text">
     <h2>Dzgn for the Technical World</h2>
     <p>Developers rock the command line. Designers visualize the impossible. In the same room, they speak different languages. In one person… </p>
     <p>We experienced the divide between the design and development worlds, and sought to try something radical - devzgners were the result. Devzgners speak a new full-stack language, where they visualize the impossible and rock the command line.</p>
@@ -14,46 +14,24 @@ layout: default
 
 <section class="row">
   <div class="small-12 columns">
-    <h2>Projects</h2>
+    <h2>Our Work</h2>
   </div>
-    
-  {% assign sorted_projects = (site.projects | sort: 'date' | reverse) %}
-  {% for project in sorted_projects %}
-    <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-      <a class="post-link" {% if project.redirect %} target="_blank" href="{{ project.redirect }}"{% else %}href="{{ project.url | prepend: site.baseurl }}"{% endif %}>
+  
+  {% assign sorted_works = (site.works | sort: 'date' | reverse) %}
+  
+  {% for work in sorted_works %}
+    <div class="small-12 medium-4 columns thumbnail-tile">
+      <a class="post-link" href="{{ work.url | prepend: site.baseurl }}">
         <div class="thumbnail-container">
-          <img class="thumbnail-image" src="{{ project.thumbnail }}">
-          <span class="thumbnail-text">{{ project.title }}</span>
-          {% if project.banner %}
-            <span class="banner">{{ project.banner }}</span>
+          <img class="thumbnail-image" src="img/thumbnails/{{ work.thumbnail }}">
+          <span class="thumbnail-text">{{ work.title }}</span>
+          {% if work.tag == "event" %}
+            <span class="banner">Event</span>
           {% endif %}
         </div>
       </a>
     </div>
   {% endfor %}
-</section>
-
-
-<section class="row">
-  <div class="small-12 columns">
-    <h2>Events</h2>
-  </div>
-  
-  {% assign sorted_events = (site.events | sort: 'date' | reverse) %}
-  {% for event in sorted_events %}
-    <div class="small-12 medium-4 large-3 columns thumbnail-tile">
-      <a class="post-link" {% if event.redirect %}target="_blank" href="{{ event.redirect }}"{% else %}href="{{ event.url | prepend: site.baseurl }}"{% endif %}>
-        <div class="thumbnail-container">
-          <img class="thumbnail-image" src="{{ event.thumbnail }}">
-          <span class="thumbnail-text">{{ event.title }}</span>
-          {% if event.banner %}
-            <span class="banner">{{ event.banner }}</span>
-          {% endif %}
-        </div>
-      </a>
-    </div>
-  {% endfor %}
-  
 </section>
 
 <section class="row">
@@ -66,8 +44,8 @@ layout: default
       <div class="small-6 medium-6 large-3 columns">
         <a class="post-link" href="{{ person.url | prepend: site.baseurl }}">
           <div class="profile-container" id="{{ person.permalink }}">
-            <img class="full-width profile" src="{{ person.thumbnail }}">
-            <img class="full-width profile-hover" src="{{ person.thumbnail-hover }}">
+            <img class="profile" src="img/{{ person.thumbnail }}">
+            <img class="profile-hover" src="img/{{ person.thumbnail-hover }}">
           </div>
         </a>
     </div>

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Toolkit"
-thumbnail: "img/thumbnails/toolkit.png"
+thumbnail: toolkit.png
 date:   2016-01-10
-tags: project
+tag: project
 redirect: https://toolkit.dzgn.io
 ---
 
