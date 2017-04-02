@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Web Dev Weekend"
-thumbnail: "img/thumbnails/wdw.png"
-date:   2016-03-16
-tags: event
+title: "Web Dev Weekend"
+thumbnail: wdw.png
+date: 2016-03-16
+tag: event
 ---
 
 <div class="row">
