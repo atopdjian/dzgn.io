@@ -146,7 +146,6 @@ a:hover {
 .thumbnail-tile {
   margin-bottom: 30px;
 }
-
 //// End of works section
 
 
@@ -276,6 +275,7 @@ h1 a.social {
 
 // End of Bio Page
 
+// Content Pages
 .content-button {
   width: 100%;
   height: 80px;
@@ -295,10 +295,6 @@ h1 a.social {
   background-color: #d74955;
 }
 
-.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
-  float: left;
-}
-
 .highlight{
   border-radius: 5px;
   pre{
@@ -309,6 +305,15 @@ h1 a.social {
     }
   }
 }
+//End of content Pages
+
+
+// Foundation override
+.column:last-child:not(:first-child), .columns:last-child:not(:first-child){
+  float: left;
+}
+// End of foundation override
+
 
 /************************/
 /****** ANIMATIONS ******/
