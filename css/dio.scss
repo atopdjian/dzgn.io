@@ -33,6 +33,12 @@ h2 {
   font-weight: 400;
   margin-bottom: 33px;
   margin-top: 60px;
+  border-bottom: 5px solid $dio-teal;
+  display: inline-block;
+//  text-decoration: underline;
+//  -webkit-text-decoration-color: $dio-teal;
+//  -moz-text-decoration-color: $dio-teal;
+//  text-decoration-color: $dio-teal;
 }
 
 h3 {
@@ -122,7 +128,7 @@ a:hover {
 .thumbnail-text {
   position: absolute;
   white-space: normal;
-  bottom: 20px;
+  bottom: 0px;
   margin: 0 auto;
   left: 0;
   right: 0;
@@ -131,12 +137,14 @@ a:hover {
   opacity: 0;
   font-size: 33px;
   line-height: 36px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .banner {
   position: absolute;
-  top: 10px;
+  bottom: 60px;
   left: 0;
   right: 0;
   opacity: 0;
@@ -156,7 +164,6 @@ a:hover {
 //// Team Section
 .profile {
   border-radius: 100%;
-  margin: 15px;
 }
 
 .profile:hover {
@@ -165,12 +172,12 @@ a:hover {
 
 .profile-hover {
   border-radius: 100%;
-  margin: 15px;
   border: 10px solid $dio-teal;
 }
 
 .profile-container {
   position: relative;
+  margin: 5px;
 }
 
 .profile-container:hover {
@@ -308,6 +315,10 @@ h1 a.social {
     }
   }
 }
+
+figure.highlight{
+    margin: 0;
+}
 //End of content Pages
 
 
@@ -357,11 +368,39 @@ h1 a.social {
   }
   ul{
     font-size: 20px;
-    margin-left: 10px;
   }
-//  code{
-//    font-size: 20px;
-//  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size:  26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .post-content{
+    padding: 10px;
+  }
+  footer{
+   margin-top: 20px; 
+  }
+  
+  .bio-container{
+    text-align: center;
+    .fa-2x{
+      font-size: 1.5em;
+    }
+  }
+  #logo{
+    width: 80px;
+  }
+  .brand{
+    font-size: 24px;
+    margin-left: -6px;
+  }
+  header{
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
 }
 
 /* MEDIUM AND UP */
