@@ -41,7 +41,7 @@ layout: default
 
     {% assign sorted_team = (site.team | sort: 'date' | reverse) %}
     {% for person in sorted_team %}
-      <div class="small-6 medium-6 large-3 columns">
+      <div class="small-6 medium-3 columns">
         <a class="post-link" href="{{ person.url | prepend: site.baseurl }}">
           <div class="profile-container" id="{{ person.permalink }}">
             <img class="profile" src="img/{{ person.thumbnail }}">
