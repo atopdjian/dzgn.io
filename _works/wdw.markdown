@@ -8,7 +8,7 @@ tag: event
 
 ## Introduction
 
-If you are viewing this site, chances are it is Saturday, April 9th and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!
+If you are viewing this site, chances are it is Saturday, April 9th, 2016 and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!
 
 This workshop will cover the basics of programming in HTML and CSS. We will then turn up the heat and discuss templating webpages with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 
