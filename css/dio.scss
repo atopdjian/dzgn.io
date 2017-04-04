@@ -91,6 +91,23 @@ a:hover {
   -webkit-user-drag: none;
 }
 
+.error-404 {
+  font-size: 140px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.error-text{
+  font-size: 80px;
+  border-bottom: none;
+  color: #B3B3B3;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 // Index
 
 //// Works Section
@@ -312,12 +329,14 @@ h1 a.social {
     border-radius: 5px;
     code{
       background-color: transparent;
+      border: 0;
     }
   }
 }
 
 figure.highlight{
     margin: 0;
+    margin-bottom: 20px;
 }
 //End of content Pages
 
@@ -400,6 +419,15 @@ figure.highlight{
   header{
     padding-top: 25px;
     padding-bottom: 15px;
+  }
+  
+  .error-404{
+    font-size: 100px;
+  }
+  .error-text{
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 1.3;
   }
 }
 
