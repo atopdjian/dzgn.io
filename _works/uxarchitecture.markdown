@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Build Pittsburgh"
+title: "UX & Architecture"
 thumbnail: build.png
 date: 2017-03-04
 tag: event
