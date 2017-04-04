@@ -43,33 +43,33 @@ Download and install <a href="https://github.com/git-for-windows/git/releases/do
 Jekyll runs on the Ruby programming language. Both Windows and Mac users will need to install Ruby, but the process is quite different depending on your OS.
 
 
-{% highlight terminal%}
-  #  Mac Users     
-  #  Open Terminal on Mac and install Homebrew by running
 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+####  Mac Users
+{% highlight c%}
+#  Open Terminal on Mac and install Homebrew by running
 
-  # Update to the newest Ruby
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-  brew install rbenv ruby-build
-  echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-  source ~/.bash_profile
-  rbenv install 2.2.3
-  rbenv global 2.2.3
-  ruby -v
+# Update to the newest Ruby
 
-  # Install Jekyll
+brew install rbenv ruby-build
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+rbenv install 2.2.3
+rbenv global 2.2.3
+ruby -v
 
-  gem install jekyll
+# Install Jekyll
 
+gem install jekyll
+{% endhighlight %}
 
-  #  Windows Users
-
-  #  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this</a> version of Ruby
-  #  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
-  #  Open GitBash (installed with Git for Windows) and run
-
-  gem install jekyll
+####  Windows Users
+{% highlight c%}
+#  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this</a> version of Ruby
+#  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
+#  Open GitBash (installed with Git for Windows) and run
+gem install jekyll
 {% endhighlight %}
 
 
