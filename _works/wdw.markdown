@@ -8,7 +8,7 @@ tag: event
 
 ## Introduction
 
-If you are viewing this site, chances are it is Saturday, April 9th and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!
+If you are viewing this site, chances are it is Saturday, April 9th, 2016 and you are attending Dzgn.IO's Web Development Workshop. If not, welcome strange visitors! <span class="emoji emoji-alien"></span> This also means you've taken the leap and have decided that you want to create your own website - YESS!! <span class="emoji emoji-thumbs_up"></span> We're here to help!
 
 This workshop will cover the basics of programming in HTML and CSS. We will then turn up the heat and discuss templating webpages with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
 
@@ -43,33 +43,33 @@ Download and install <a href="https://github.com/git-for-windows/git/releases/do
 Jekyll runs on the Ruby programming language. Both Windows and Mac users will need to install Ruby, but the process is quite different depending on your OS.
 
 
-{% highlight terminal%}
-  #  Mac Users     
-  #  Open Terminal on Mac and install Homebrew by running
 
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+####  Mac Users
+{% highlight c%}
+#  Open Terminal on Mac and install Homebrew by running
 
-  # Update to the newest Ruby
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-  brew install rbenv ruby-build
-  echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
-  source ~/.bash_profile
-  rbenv install 2.2.3
-  rbenv global 2.2.3
-  ruby -v
+# Update to the newest Ruby
 
-  # Install Jekyll
+brew install rbenv ruby-build
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+rbenv install 2.2.3
+rbenv global 2.2.3
+ruby -v
 
-  gem install jekyll
+# Install Jekyll
 
+gem install jekyll
+{% endhighlight %}
 
-  #  Windows Users
-
-  #  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this</a> version of Ruby
-  #  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
-  #  Open GitBash (installed with Git for Windows) and run
-
-  gem install jekyll
+####  Windows Users
+{% highlight c%}
+#  Download this version of Ruby http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe
+#  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
+#  Open GitBash (installed with Git for Windows) and run
+gem install jekyll
 {% endhighlight %}
 
 
