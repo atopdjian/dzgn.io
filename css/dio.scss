@@ -123,7 +123,7 @@ a:hover {
 }
 
 .thumbnail-container:hover{
-  border: 10px solid $dio-teal;
+  box-shadow: 0 0 0 10px $dio-teal;
 }
 
 .thumbnail-container:hover .thumbnail-text {
@@ -400,9 +400,9 @@ figure.highlight{
     padding: 10px;
   }
   footer{
-   margin-top: 20px; 
+   margin-top: 20px;
   }
-  
+
   .bio-container{
     text-align: center;
     .fa-2x{
@@ -420,7 +420,7 @@ figure.highlight{
     padding-top: 25px;
     padding-bottom: 15px;
   }
-  
+
   .error-404{
     font-size: 100px;
   }
