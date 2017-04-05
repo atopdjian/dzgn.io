@@ -11,7 +11,7 @@ email: hello@dzgn.io
 description: > # this means to ignore newlines until "baseurl:"
   Developers rock the command line. Designers visualize the impossible. In the same room, they speak different languages. In one person…
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dzgn.io.com" # the base hostname & protocol for your site
+url: "https://dzgn.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 

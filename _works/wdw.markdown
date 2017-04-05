@@ -66,7 +66,7 @@ gem install jekyll
 
 ####  Windows Users
 {% highlight c%}
-#  Download <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe">this</a> version of Ruby
+#  Download this version of Ruby http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.4-x64.exe
 #  Install the package, ensuring to check the "Add Ruby Executables to your PATH" box
 #  Open GitBash (installed with Git for Windows) and run
 gem install jekyll
