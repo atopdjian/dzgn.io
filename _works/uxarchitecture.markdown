@@ -10,7 +10,7 @@ tag: event
 
 If you are viewing this page, chances are you attended the 'UI/UX Design and Architecture: Leveraging Web Technologies for and by Architects' course as part of <a href="http://aiapgh.org/aia-programs-events/build-pittsburgh/" target="_blank">AIA Build Pittsburgh</a>. If not, welcome! This also means you've taken the leap and have decided that you want to to expand your knowledge in the UI/UX field. <span class="emoji emoji-thumbs_up"></span> Which is awesome!
 
-You can view the presentation <a href="" target="_blank">HERE</a> for reference.
+You can view the presentation <a href="https://1drv.ms/p/s!Apfo2lK0H2lmhgJ2dnAbbrVjYkgj" target="_blank">HERE</a> for reference.
 
 ## Course Description
 
