@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-content" itemprop="articleBody">
+    <div class="row">
+      <div class="small-12 medium-9 small-centered columns">
+        
+        <div class="small-12 large-4 columns">
+          <img src="../img/{{ page.thumbnail }}" class="bio-pic">
+        </div>
+        <div class="small-12 large-8 columns">
+          <div class="bio-container">
+            <h1>{{ page.title }}<a class="social bio-link" target="_blank" href="{{ page.personal-site }}"><i class="fa fa-globe fa-2x"></i></a></h1>
+            <p>{{ page.role }}</p>
+          </div>
+          <p class="bio">{{ content }}</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+</article>
